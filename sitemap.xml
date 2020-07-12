@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adam.kostarelas.com/</loc>
+    <lastmod>2020-07-10T14:12:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/blog/first-post/</loc>
+    <lastmod>2020-07-10T14:12:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/blog/</loc>
+    <lastmod>2020-07-10T14:12:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/tags/general/</loc>
+    <lastmod>2020-07-10T14:12:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/tags/</loc>
+    <lastmod>2020-07-10T14:12:12+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adam.kostarelas.com/projects/</loc>
+  </url>
+  
+</urlset>
