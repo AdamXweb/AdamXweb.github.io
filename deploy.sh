@@ -1,5 +1,6 @@
 #!/bin/sh
-
+#grab changes from forestry
+git pull
 # If a command fails then the deploy stops
 set -e
 
@@ -22,4 +23,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin gh-pages
+git push origin master
