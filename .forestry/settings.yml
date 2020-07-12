@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/projects.md
   label: Projects
-  match: "**/*"
 - type: directory
   path: content
   label: Pages
