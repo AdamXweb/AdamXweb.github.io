@@ -13,7 +13,7 @@ math: false
 toc: false
 
 ---
-![Chapagetti and shin ramyun packets on stove](/uploads/_dsf2117.JPG "Noodle Packets overview")
+![Chapagetti and shin ramyun packets on stove](/uploads/dsf2117.JPG "Noodle Packets overview")
 
 ## After recently watching the film Parasite,
 
