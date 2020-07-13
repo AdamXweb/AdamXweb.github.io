@@ -50,7 +50,7 @@ Place in boiling water, and close the lid.
 
 #### Step 2 (Open packets and prep)
 
-![](/uploads/_dsf2134.JPG)
+![](/uploads/dsf2134.JPG "Ramen packets")
 
 It's time to get acquainted with what's inside your noodle packets. We're going to be using all the packets.
 
@@ -64,33 +64,33 @@ I like to add the small pieces left in the packet into the bowl with the seasoni
 
 #### Step 3 (Add vegetable packets)
 
-![](/uploads/_dsf2136.JPG)
+![](/uploads/dsf2136.JPG "Vegetable packets on stove")
 
 Add in the noodles from both packets, followed by the vegetable flakes.
 
 #### Step 4 (Add Eggs)
 
-![](/uploads/_dsf2138.JPG)
+![](/uploads/dsf2138.JPG "Ramen with eggs added")
 
 When cooking, I like to use the lid to rise the temperature of the pan, which also rises the water above the top noodles and cooks the eggs evenly.
 
 #### Step 5 (Cooked, and ready to drain)
 
-![](/uploads/_dsf2141.JPG)
+![](/uploads/dsf2141.JPG "Cooked ramen")
 
 After about 3-4 mins, you'll notice the egg whites at the top aren't translucent and have cooked through. This is the perfect time to remove from heat and to mostly drain. Make sure to leave about 1cm of water at the bottom. (More or less when the water starts to trickle when draining)
 
 #### Step 6 (Add noodles to bowl and mix!)
 
-![](/uploads/_dsf2142.JPG)![](/uploads/_dsf2149.JPG)
+![](/uploads/dsf2142.JPG)![](/uploads/dsf2149.JPG)
 
 After mixing you'll get a solid golden brown colour all round. Keep mixing from the bottom and circle it round to the top. (You don't want a massive flavour punch at the end).
 
-![](/uploads/_dsf2157.JPG)
+![](/uploads/dsf2157.JPG)
 
 #### Step 7 (Add to clean bowl club)
 
-![](/uploads/_dsf2159.JPG)
+![](/uploads/dsf2159.JPG)
 
 Reflecting on the flavours, you get the spicy from the Shin Ramyun, with the earthy flavour from the Chapagetti that I really feel gives a good kick.
 
