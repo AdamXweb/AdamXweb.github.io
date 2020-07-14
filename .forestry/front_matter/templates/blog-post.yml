@@ -1,0 +1,31 @@
+---
+label: Blog post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: description
+  label: description
+- type: list
+  name: keywords
+  label: keywords
+- type: text
+  name: author
+  label: author
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: math
+  label: math
+- type: boolean
+  name: toc
+  label: toc
