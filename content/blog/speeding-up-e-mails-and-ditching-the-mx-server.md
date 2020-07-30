@@ -54,7 +54,7 @@ Once you've matched e-mail to e-mail it's time to make a switch
 
 (optional but recommended)
 
-You can use whatever DNS option you like, however I use Cloudflare.
+You can use whatever DNS option you like, however I use Cloudflare.![](/uploads/screen-shot-2020-07-30-at-5-40-00-pm.png)
 
 #### Step 3
 
