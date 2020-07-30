@@ -35,4 +35,5 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/blog/becoming-a-cloud-gamer-in-aus.md
 - content/blog/experience-creating-a-hugo-blog-with-thumbnails.md
