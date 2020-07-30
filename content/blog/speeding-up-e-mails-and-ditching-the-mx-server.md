@@ -11,7 +11,6 @@ title = "Speeding up e-mails and ditching the MX server"
 toc = false
 
 +++
-# My Journey speeding up e-mails and ditching the MX Server
 
 ![ImprovMX website](/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png "ImprovMX")
 
