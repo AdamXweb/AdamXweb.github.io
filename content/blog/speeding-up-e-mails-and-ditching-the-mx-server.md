@@ -36,13 +36,29 @@ The benefit of ditching shared hosting handling our emails is that incoming emai
 Things to know:  
 \- Our DNS is managed by Cloudflare, which makes switching MX records super easy and quick.  
 \- Users who had Mailboxes on Cpanel won't receive mail there anymore, but at the new address  
-\- Privacy may be compromised using Google's services (if that's where you're forwarding emails to)
+\- Privacy may be compromised using Google's services (if that's where you're forwarding emails to)  
+\- If you've already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to [Step 3]()
 
 #### Step 1
 
 Set up Redundancies
 
 Before making the switch, first it's time to set up ImprovMX, and configure all the e-mail aliases.
+
+![](/uploads/screen-shot-2020-07-30-at-5-09-32-pm.png)
+
+You'll notice that you aren't receiving e-mails yet, and that's ok.  
+Once you've matched e-mail to e-mail it's time to make a switch
+
+#### Step 2
+
+(optional but recommended)
+
+You can use whatever DNS option you like, however I use Cloudflare.
+
+#### Step 3
+
+Configure e-mail to send as
 
 Feel free to reach out by twitter and start a conversation!
 
