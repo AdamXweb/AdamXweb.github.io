@@ -73,7 +73,7 @@
     "datePublished": "2020-07-30 04:00:00 \u002b0000 UTC",
     "dateModified": "2020-07-30 04:00:00 \u002b0000 UTC",
     "url": "https:\/\/adam.kostarelas.com\/blog\/mx-server-to-gmail-email-forwarder\/",
-    "wordCount": "713",
+    "wordCount": "724",
     "keywords": [{
         {
           if isset.Params "keywords"
@@ -159,8 +159,9 @@ if (!doNotTrack) {
       </header>
       <article class="post__content">
         
-<h2 id="ive-had-enough-with-shared-hosting">I&rsquo;ve had enough with shared hosting.<a class="anchor" href="#ive-had-enough-with-shared-hosting">#</a></h2>
+<h1 id="my-journey-speeding-up-e-mails-and-ditching-the-mx-server">My Journey speeding up e-mails and ditching the MX Server</h1>
 <p><img src="/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png" alt="ImprovMX website" title="ImprovMX"></p>
+<h2 id="ive-had-enough-with-shared-hosting">I&rsquo;ve had enough with shared hosting.<a class="anchor" href="#ive-had-enough-with-shared-hosting">#</a></h2>
 <p>For years our domain, Kostarelas.com has been on shared hosting provided by Godaddy.</p>
 <p>Previously, I was too young to take control of the administration of the domain, but today was the last straw, thanks to two step verification.</p>
 <p>I was setting up a service on a new device that of course asked for a 2 step verification code. Usually with platforms like Gmail, Outlook and fast SMTP servers, you&rsquo;d get a push notification instantly.</p>
@@ -169,28 +170,28 @@ if (!doNotTrack) {
 They offer a free forwarding service that gives great service delivery rates. They also offer a premium SMTP that bypasses my guide&rsquo;s few steps.</p>
 <p>Our use case was that most of the users were already fowarding e-mail to Gmail, and with sign off from them all, we decided to pull the plug on Godaddy and Cpanel.</p>
 <p>The benefit of ditching shared hosting handling our emails is that incoming emails delivered through the relay are delivered within 5 seconds, which is tolerable compared to the 26 mins. Outgoing e-mails are also going through TLS through Gmail, which adds a layer of security.</p>
-<h3 id="guide">Guide<a class="anchor" href="#guide">#</a></h3>
+<h2 id="guide">Guide<a class="anchor" href="#guide">#</a></h2>
 <p>Things to know:<br>
 - Our DNS is managed by Cloudflare, which makes switching MX records super easy and quick.<br>
 - Users who had Mailboxes on Cpanel won&rsquo;t receive mail there anymore, but at the new address<br>
 - Privacy may be compromised using Google&rsquo;s services (if that&rsquo;s where you&rsquo;re forwarding emails to)<br>
-- If you&rsquo;ve already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to <a href="">Step 3</a></p>
-<h4 id="step-1">Step 1</h4>
+- If you&rsquo;ve already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to [Step 3](<a href="https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder#Step">https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder#Step</a> 3)</p>
+<h3 id="step-1">Step 1<a class="anchor" href="#step-1">#</a></h3>
 <p>Set up Redundancies</p>
 <p>Before making the switch, first it&rsquo;s time to set up ImprovMX, and configure all the e-mail aliases.</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-5-09-32-pm.png" alt=""></p>
 <p>You&rsquo;ll notice that you aren&rsquo;t receiving e-mails yet, and that&rsquo;s ok.<br>
 Once you&rsquo;ve matched e-mail to e-mail it&rsquo;s time to make a switch</p>
-<h4 id="step-2">Step 2</h4>
+<h3 id="step-2">Step 2<a class="anchor" href="#step-2">#</a></h3>
 <p>(optional to use Cloudflare but recommended)</p>
 <p>You can use whatever DNS option you like, however I use Cloudflare for many conveniences.<br>
 <img src="/uploads/screen-shot-2020-07-30-at-5-40-00-pm.png" alt=""></p>
 <p>Create or update the records to match ImprovMX&rsquo;s mail servers of mx1 and mx2 (redundancies so if one doesn&rsquo;t work, the second one still relays mail)</p>
 <p>This step is going to change who receives the e-mails so keep that in mind.<img src="/uploads/screen-shot-2020-07-30-at-5-38-17-pm.png" alt=""></p>
 <p>You&rsquo;ll then be active to receive e-mails</p>
-<h4 id="step-3">Step 3</h4>
+<h3 id="step-3">Step 3<a class="anchor" href="#step-3">#</a></h3>
 <p>Let&rsquo;s now configure e-mail to send as the domain, as you won&rsquo;t have a MX server to send the emails from.</p>
-<h5 id="create-an-app-password">Create an app password</h5>
+<h4 id="create-an-app-password">Create an app password</h4>
 <p>Go to your Gmail account and click on Security</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-42-27-pm.png" alt=""></p>
 <p>Under signing in to Google, click on App passwords. We&rsquo;re going to create an SMTP password used exclusively with Gmail as our forwarder.</p>
@@ -199,23 +200,23 @@ Once you&rsquo;ve matched e-mail to e-mail it&rsquo;s time to make a switch</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-37-43-pm.png" alt=""></p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-42-16-pm.png" alt=""></p>
 <p>You need to keep this window open or copy the password somewhere as this is what we&rsquo;re going to paste into the next step&rsquo;s SMTP password area below.</p>
-<h5 id="open-gmail">Open Gmail</h5>
+<h4 id="open-gmail">Open Gmail</h4>
 <p>Go to settings and click See all settings</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-40-31-pm.png" alt=""></p>
-<h5 id="add-a-new-alias">Add a new alias</h5>
+<h4 id="add-a-new-alias">Add a new alias</h4>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-40-44-pm.png" alt=""></p>
 <p>We&rsquo;re going to add the e-mail address here which will allow us to send e-mails as the domain you&rsquo;ve now forwarded.</p>
-<h5 id="verify-details">Verify details</h5>
+<h4 id="verify-details">Verify details</h4>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-41-10-pm.png" alt=""></p>
 <p>Add your forwarded email address <a href="mailto:example@domain.com">example@domain.com</a> on the first step</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-41-26-pm.png" alt=""></p>
 <p>This step is where you&rsquo;ll need the password from before. Paste the password into the box represented by the pink area, and enter your gmail address into the username, not the email you&rsquo;re going to forward. We&rsquo;re logging into Gmail&rsquo;s SMTP here to send e-mails and your <a href="mailto:example@domain.com">example@domain.com</a> wouldn&rsquo;t have a login.</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-38-53-pm.png" alt=""></p>
 <p>Seeing as you set up the forwarding first, you&rsquo;ll receive the confirmation with a code from google giving authority to send e-mails on your behalf</p>
-<h5 id="enjoy">Enjoy!</h5>
+<h3 id="enjoy">Enjoy!<a class="anchor" href="#enjoy">#</a></h3>
 <p><img src="/uploads/screen-shot-2020-07-30-at-4-42-04-pm.png" alt=""></p>
 <p>That&rsquo;s it! You&rsquo;ll now receive e-mails from your other domain, benefit from spam protection with g-mail and be able to send and receive e-mails within seconds, all for free.</p>
-<h4 id="thanks-for-reading">Thanks for reading!</h4>
+<h3 id="thanks-for-reading">Thanks for reading!<a class="anchor" href="#thanks-for-reading">#</a></h3>
 <p>Feel free to reach out by twitter and start a conversation! Tweet me directly <a href="https://twitter.com/intent/tweet?screen_name=adamxweb&amp;ref_src=twsrc%5Etfw" title="twitter">@adamxweb</a> if you&rsquo;ve got any troubleshooting issues.</p>
 <p><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
