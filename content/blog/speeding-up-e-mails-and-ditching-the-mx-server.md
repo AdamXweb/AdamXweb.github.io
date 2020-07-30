@@ -2,11 +2,10 @@
 author = "Adam Kostarelas"
 date = 2020-07-30T04:00:00Z
 description = "Making it quicker to receive e-mails"
-draft = true
 image = ""
 keywords = ["godaddy faster email delivery", "email forwarding to gmail", "mx forwarding"]
 math = false
-slug = "cpanel-to-gmail-email-forwarder"
+slug = "mx-server-to-gmail-email-forwarder"
 tags = []
 title = "Speeding up e-mails and ditching the MX server"
 toc = false
@@ -77,15 +76,13 @@ Under signing in to Google, click on App passwords. We're going to create an SMT
 
 ![](/uploads/screen-shot-2020-07-30-at-4-42-49-pm.png)
 
-f
+Select the type of app as Mail, and I'd recommend writing some other custom text so you'll know what it is later on.
 
 ![](/uploads/screen-shot-2020-07-30-at-4-37-43-pm.png)
 
-Name it if you like so you don't forget.
-
 ![](/uploads/screen-shot-2020-07-30-at-4-42-16-pm.png)
 
-You need to keep this window open or copy the password somewhere to paste into the next step's SMTP password below.
+You need to keep this window open or copy the password somewhere as this is what we're going to paste into the next step's SMTP password area below.
 
 ##### Open Gmail
 
