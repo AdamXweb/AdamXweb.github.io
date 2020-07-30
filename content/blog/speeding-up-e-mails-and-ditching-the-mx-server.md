@@ -52,14 +52,75 @@ Once you've matched e-mail to e-mail it's time to make a switch
 
 #### Step 2
 
-(optional but recommended)
+(optional to use Cloudflare but recommended)
 
-You can use whatever DNS option you like, however I use Cloudflare.![](/uploads/screen-shot-2020-07-30-at-5-40-00-pm.png)
+You can use whatever DNS option you like, however I use Cloudflare for many conveniences.  
+![](/uploads/screen-shot-2020-07-30-at-5-40-00-pm.png)
+
+Create or update the records to match ImprovMX's mail servers of mx1 and mx2 (redundancies so if one doesn't work, the second one still relays mail)
+
+This step is going to change who receives the e-mails so keep that in mind.![](/uploads/screen-shot-2020-07-30-at-5-38-17-pm.png)
+
+You'll then be active to receive e-mails
 
 #### Step 3
 
-Configure e-mail to send as
+Let's now configure e-mail to send as the domain, as you won't have a MX server to send the emails from.
 
-Feel free to reach out by twitter and start a conversation!
+##### Create an app password
+
+Go to your Gmail account and click on Security
+
+![](/uploads/screen-shot-2020-07-30-at-4-42-27-pm.png)
+
+Under signing in to Google, click on App passwords. We're going to create an SMTP password used exclusively with Gmail as our forwarder.
+
+![](/uploads/screen-shot-2020-07-30-at-4-42-49-pm.png)
+
+f
+
+![](/uploads/screen-shot-2020-07-30-at-4-37-43-pm.png)
+
+Name it if you like so you don't forget.
+
+![](/uploads/screen-shot-2020-07-30-at-4-42-16-pm.png)
+
+You need to keep this window open or copy the password somewhere to paste into the next step's SMTP password below.
+
+##### Open Gmail
+
+Go to settings and click See all settings
+
+![](/uploads/screen-shot-2020-07-30-at-4-40-31-pm.png)
+
+##### Add a new alias
+
+![](/uploads/screen-shot-2020-07-30-at-4-40-44-pm.png)
+
+We're going to add the e-mail address here which will allow us to send e-mails as the domain you've now forwarded.
+
+##### Verify details
+
+![](/uploads/screen-shot-2020-07-30-at-4-41-10-pm.png)
+
+Add your forwarded email address <example@domain.com> on the first step
+
+![](/uploads/screen-shot-2020-07-30-at-4-41-26-pm.png)
+
+This step is where you'll need the password from before. Paste the password into the box represented by the pink area, and enter your gmail address into the username, not the email you're going to forward. We're logging into Gmail's SMTP here to send e-mails and your <example@domain.com> wouldn't have a login.
+
+![](/uploads/screen-shot-2020-07-30-at-4-38-53-pm.png)
+
+Seeing as you set up the forwarding first, you'll receive the confirmation with a code from google giving authority to send e-mails on your behalf
+
+##### Enjoy!
+
+![](/uploads/screen-shot-2020-07-30-at-4-42-04-pm.png)
+
+That's it! You'll now receive e-mails from your other domain, benefit from spam protection with g-mail and be able to send and receive e-mails within seconds, all for free.
+
+#### Thanks for reading!
+
+Feel free to reach out by twitter and start a conversation! Tweet me directly [@adamxweb](https://twitter.com/intent/tweet?screen_name=adamxweb&ref_src=twsrc%5Etfw "twitter") if you've got any troubleshooting issues.
 
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
