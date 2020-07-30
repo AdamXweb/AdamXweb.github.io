@@ -11,9 +11,11 @@ title = "Speeding up e-mails and ditching the MX server"
 toc = false
 
 +++
-## I've had enough with shared hosting.
+# My Journey speeding up e-mails and ditching the MX Server
 
 ![ImprovMX website](/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png "ImprovMX")
+
+## I've had enough with shared hosting.
 
 For years our domain, Kostarelas.com has been on shared hosting provided by Godaddy.
 
@@ -30,15 +32,15 @@ Our use case was that most of the users were already fowarding e-mail to Gmail, 
 
 The benefit of ditching shared hosting handling our emails is that incoming emails delivered through the relay are delivered within 5 seconds, which is tolerable compared to the 26 mins. Outgoing e-mails are also going through TLS through Gmail, which adds a layer of security.
 
-### Guide
+## Guide
 
 Things to know:  
 \- Our DNS is managed by Cloudflare, which makes switching MX records super easy and quick.  
 \- Users who had Mailboxes on Cpanel won't receive mail there anymore, but at the new address  
 \- Privacy may be compromised using Google's services (if that's where you're forwarding emails to)  
-\- If you've already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to [Step 3]()
+\- If you've already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to [Step 3](https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder#Step 3)
 
-#### Step 1
+### Step 1
 
 Set up Redundancies
 
@@ -49,7 +51,7 @@ Before making the switch, first it's time to set up ImprovMX, and configure all 
 You'll notice that you aren't receiving e-mails yet, and that's ok.  
 Once you've matched e-mail to e-mail it's time to make a switch
 
-#### Step 2
+### Step 2
 
 (optional to use Cloudflare but recommended)
 
@@ -62,11 +64,11 @@ This step is going to change who receives the e-mails so keep that in mind.![](/
 
 You'll then be active to receive e-mails
 
-#### Step 3
+### Step 3
 
 Let's now configure e-mail to send as the domain, as you won't have a MX server to send the emails from.
 
-##### Create an app password
+#### Create an app password
 
 Go to your Gmail account and click on Security
 
@@ -84,19 +86,19 @@ Select the type of app as Mail, and I'd recommend writing some other custom text
 
 You need to keep this window open or copy the password somewhere as this is what we're going to paste into the next step's SMTP password area below.
 
-##### Open Gmail
+#### Open Gmail
 
 Go to settings and click See all settings
 
 ![](/uploads/screen-shot-2020-07-30-at-4-40-31-pm.png)
 
-##### Add a new alias
+#### Add a new alias
 
 ![](/uploads/screen-shot-2020-07-30-at-4-40-44-pm.png)
 
 We're going to add the e-mail address here which will allow us to send e-mails as the domain you've now forwarded.
 
-##### Verify details
+#### Verify details
 
 ![](/uploads/screen-shot-2020-07-30-at-4-41-10-pm.png)
 
@@ -110,13 +112,13 @@ This step is where you'll need the password from before. Paste the password into
 
 Seeing as you set up the forwarding first, you'll receive the confirmation with a code from google giving authority to send e-mails on your behalf
 
-##### Enjoy!
+### Enjoy!
 
 ![](/uploads/screen-shot-2020-07-30-at-4-42-04-pm.png)
 
 That's it! You'll now receive e-mails from your other domain, benefit from spam protection with g-mail and be able to send and receive e-mails within seconds, all for free.
 
-#### Thanks for reading!
+### Thanks for reading!
 
 Feel free to reach out by twitter and start a conversation! Tweet me directly [@adamxweb](https://twitter.com/intent/tweet?screen_name=adamxweb&ref_src=twsrc%5Etfw "twitter") if you've got any troubleshooting issues.
 
