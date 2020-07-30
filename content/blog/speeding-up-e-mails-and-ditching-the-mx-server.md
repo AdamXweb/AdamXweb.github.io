@@ -8,7 +8,7 @@ math = false
 slug = "mx-server-to-gmail-email-forwarder"
 tags = []
 title = "Speeding up e-mails and ditching the MX server"
-toc = false
+toc = true
 
 +++
 
