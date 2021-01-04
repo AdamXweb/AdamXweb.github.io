@@ -1,7 +1,7 @@
 +++
 author = "Adam Kostarelas"
 date = 2021-01-03T13:00:00Z
-description = "Easy tweaks using Better Touch Tool to make using your Mac easier"
+description = "Easy tweaks using Apps to make using your Mac easier"
 draft = true
 image = ""
 keywords = []
@@ -26,22 +26,28 @@ I'd recommend using the fn key on Apple keyboards to move the window, as it's in
 
 On non-Apple keyboards like the one i'm currently using, i'd recommend the combination of shift and ctrl; both next to each other and easy to press also.
 
-## Non Apple keyboard shortcuts
+### Non Apple keyboard shortcuts
 
 I've been using Apple keyboards, either on the MacBooks themselves, or on my external bluetooth keyboard for quite a few years, and the habit of wanting to press at the top left to control the volume is something I must be able to do.
 
-## Use Hot Corners to make full use of your mouse.
+## Apple System Preferences
+
+### Use Hot Corners to make full use of your mouse.
 
 If you're like me, I try to find efficiencies in the Operating System that i'm using. Examples of such is to be able to navigate as much through the OS as possible without the need of the second peripheral (Only using the mouse, or only using the keyboard).
 
 A nifty feature called hot corners allows you to move the mouse to the edge of the screen
 
 ![](/uploads/screen-shot-2021-01-04-at-10-08-30-pm.png)  
-Hot Corners is found at the bottom left of Mission Control in System Preferences.
+Hot Corners is found at 
 
 ![](/uploads/screen-shot-2021-01-04-at-10-08-43-pm.png)
 
-## Advanced keyboard usage with Alfred
+These are my screen corner settings. My first one was the top left for notification centre, which just made sense instead of adding an extra click in.
+
+## Alfred App
+
+### Advanced keyboard usage with Alfred
 
 Spotlight for me just hasn't been enough over the last few years. Sure, there have been improvements, however none of the improvements will be able to match third-party innovations.
 
@@ -61,4 +67,17 @@ With Alfred, you can;
 
 Keep in mind there are other great options out there aside from Alfred that can be more powerful. The downside is the time a user may need to configure the options may be too long for the average user.
 
-The other option i'd recommend is [Lacona](https://lacona.app/ "Lacona Website"). It can be a bit more powerful understanding commands. Downside is that they only offer a subscription for their 'pro' features that can hook you into another thing to pay yearly..
+The other option I'd recommend is [Lacona](https://lacona.app/ "Lacona Website"). It can be a bit more powerful understanding commands. Downside is that they only offer a subscription for their 'pro' features that can hook you into another thing to pay yearly..
+
+## BitWarden
+
+Password management is something that can really make life much easier. There are many options out there, however I'm an advocate for security and privacy so would stick to these options;
+
+Bitwarden is the best all-rounder, is open source and works on multiple platforms effortlessly. You can even host your own BitWarden server, and sync your passwords to your own managed service. I personally pay for BitWarden, to add in extra functionality including 2FA to have the codes that autofill in websites for authentication.
+
+A key factor here to note is that my browser of choice is Firefox.
+
+Other great options are;
+
+* 1Password. If you don't mind paying a bit more, the app is built with MacOS in mind. It allows for easy features such as using TouchID to unlock your passwords
+* Keychain Access. Some people use Apple products exclusively. This can often mean that you use Safari exclusively also. This would be the best option, as it can suggest passwords for you, sync passwords to your phone and also remember wifi passwords across devices.
