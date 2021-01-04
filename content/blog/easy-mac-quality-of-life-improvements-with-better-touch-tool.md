@@ -8,15 +8,17 @@ keywords = []
 math = false
 slug = "easy-mac-quality-of-life-improvements"
 tags = []
-title = "Easy Mac Quality of Life Improvements with Better Touch tool"
+title = "Easy Mac Quality of Life Improvements with Apps"
 toc = false
 
 +++
-It's easy to make life easier on your Mac with the aid of Better Touch Tool, as well as hidden features within MacOS. Here's a few suggestions.
+It's easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here's a few suggestions.
 
-## Drag windows around effortlessly
+## Better Touch Tool
 
-Instead of clicking and dragging the [title bar](https://developer.apple.com/design/human-interface-guidelines/macos/windows-and-views/window-anatomy/#title-bar "Apple HID title bar info") to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.
+### Drag windows around effortlessly
+
+Instead of clicking and dragging the Instead of clicking and dragging the[title bar](https://developer.apple.com/design/human-interface-guidelines/macos/windows-and-views/window-anatomy/#title-bar "Apple HID title bar info") to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.
 
 ![](/uploads/screen-shot-2021-01-04-at-9-48-08-pm.png)
 
@@ -36,6 +38,8 @@ A nifty feature called hot corners allows you to move the mouse to the edge of t
 
 ![](/uploads/screen-shot-2021-01-04-at-10-08-30-pm.png)  
 Hot Corners is found at the bottom left of Mission Control in System Preferences.
+
+![](/uploads/screen-shot-2021-01-04-at-10-08-43-pm.png)
 
 ## Advanced keyboard usage with Alfred
 
