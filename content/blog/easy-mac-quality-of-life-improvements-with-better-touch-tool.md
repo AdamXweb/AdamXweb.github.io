@@ -34,6 +34,9 @@ If you're like me, I try to find efficiencies in the Operating System that i'm u
 
 A nifty feature called hot corners allows you to move the mouse to the edge of the screen
 
+![](/uploads/screen-shot-2021-01-04-at-10-08-30-pm.png)  
+Hot Corners is found at the bottom left of Mission Control in System Preferences.
+
 ## Advanced keyboard usage with Alfred
 
 Spotlight for me just hasn't been enough over the last few years. Sure, there have been improvements, however none of the improvements will be able to match third-party innovations.
