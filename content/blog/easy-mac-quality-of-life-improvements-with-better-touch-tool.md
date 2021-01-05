@@ -2,7 +2,6 @@
 author = "Adam Kostarelas"
 date = 2021-01-03T13:00:00Z
 description = "Easy tweaks using Apps to make using your Mac easier"
-draft = true
 image = "/qoli.png"
 keywords = ["desktopaint mac", "window management improvements for mac", "better touch tool uses", "quality of life improvements for mac", "mac apps"]
 math = false
@@ -116,4 +115,6 @@ This one isn't quite what you think of with 'improvement, however it can make yo
 
 ## Conclusion
 
-There are many apps out there that you may not have tried that make your day
+There are many apps out there that you may not have tried that make your day a little bit better. 
+
+Feel free to tweet me @[adamxweb](https://twitter.com/adamxweb "Adam's Twitter") to continue the conversation further
