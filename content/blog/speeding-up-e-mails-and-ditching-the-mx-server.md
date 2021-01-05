@@ -2,16 +2,15 @@
 author = "Adam Kostarelas"
 date = 2020-07-30T04:00:00Z
 description = "Making it quicker to receive e-mails"
-image = ""
+image = "/screen-shot-2020-07-30-at-5-03-26-pm.png"
 keywords = ["godaddy faster email delivery", "email forwarding to gmail", "mx forwarding"]
 math = false
 slug = "mx-server-to-gmail-email-forwarder"
-tags = []
+tags = ["tech"]
 title = "Speeding up e-mails and ditching the MX server"
 toc = true
 
 +++
-
 ![ImprovMX website](/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png "ImprovMX")
 
 ## I've had enough with shared hosting.
@@ -101,11 +100,11 @@ We're going to add the e-mail address here which will allow us to send e-mails a
 
 ![](/uploads/screen-shot-2020-07-30-at-4-41-10-pm.png)
 
-Add your forwarded email address <example@domain.com> on the first step
+Add your forwarded email address [example@domain.com](mailto:example@domain.com) on the first step
 
 ![](/uploads/screen-shot-2020-07-30-at-4-41-26-pm.png)
 
-This step is where you'll need the password from before. Paste the password into the box represented by the pink area, and enter your gmail address into the username, not the email you're going to forward. We're logging into Gmail's SMTP here to send e-mails and your <example@domain.com> wouldn't have a login.
+This step is where you'll need the password from before. Paste the password into the box represented by the pink area, and enter your gmail address into the username, not the email you're going to forward. We're logging into Gmail's SMTP here to send e-mails and your [example@domain.com](mailto:example@domain.com) wouldn't have a login.
 
 ![](/uploads/screen-shot-2020-07-30-at-4-38-53-pm.png)
 
