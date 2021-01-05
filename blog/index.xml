@@ -7,10 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year} Adam Kostarelas</copyright>
-    <lastBuildDate>Thu, 30 Jul 2020 04:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://adam.kostarelas.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 03 Jan 2021 13:00:00 +0000</lastBuildDate><atom:link href="https://adam.kostarelas.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy Mac Quality of Life Improvements with Apps</title>
+      <link>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</link>
+      <pubDate>Sun, 03 Jan 2021 13:00:00 +0000</pubDate>
+      
+      <guid>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</guid>
+      <description>It&amp;rsquo;s easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here&amp;rsquo;s a few suggestions.
+Better Touch Tool Drag windows around effortlessly Instead of clicking and dragging the Instead of clicking and dragging the title bar to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.</description>
+    </item>
     
     <item>
       <title>Speeding up e-mails and ditching the MX server</title>

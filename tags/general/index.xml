@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year} Adam Kostarelas</copyright>
-    <lastBuildDate>Fri, 10 Jul 2020 14:12:12 +1000</lastBuildDate>
-    
-	<atom:link href="https://adam.kostarelas.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 10 Jul 2020 14:12:12 +1000</lastBuildDate><atom:link href="https://adam.kostarelas.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>:// Welcome</title>
       <link>https://adam.kostarelas.com/blog/first-post/</link>
