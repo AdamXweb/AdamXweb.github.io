@@ -7,7 +7,7 @@ image = ""
 keywords = ["parsec gaming with aws", "ec2 gaming in aus", "playing warzone on aws", "aws gaming aus", "amazon aws gaming"]
 math = false
 slug = "aws-ec2-gaming"
-tags = []
+tags = ["tech"]
 title = "Becoming a cloud gamer in Aus"
 toc = false
 
