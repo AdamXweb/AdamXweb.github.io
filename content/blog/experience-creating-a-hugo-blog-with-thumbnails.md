@@ -7,7 +7,7 @@ image = ""
 keywords = ["coding", "hugo"]
 math = false
 slug = "creating-a-hugo-blog"
-tags = ["Code"]
+tags = ["tech"]
 title = "Experience creating a Hugo Blog with thumbnails"
 toc = true
 
