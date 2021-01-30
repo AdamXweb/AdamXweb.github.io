@@ -1,0 +1,22 @@
+<h1 style="padding:1rem;">Top Categories</h1>
+<div class="post-list__container">
+  <div class="row w-100">
+    {{ range $tag, $value := $.Site.Taxonomies.tags }}
+    <a href="{{ "/tags/" | relLangURL}}{{ $tag | urlize }}" class="n flex">
+      <div class="card text-center w-100">
+        <h3>{{ $tag }}</h3>
+        <p>{{ $tag | urlize }} ({{ len $value }})
+        </p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+<h2>Posts</h2>
+<!-- <ul class="tags__list">
+  {{ range $tag, $value := $.Site.Taxonomies.tags }}
+  <li class="tag__item">
+    <a class="tag__link" href="{{ "/tags/" | relLangURL}}{{ $tag | urlize }}">{{ $tag | urlize }} ({{ len $value }})</a>
+  </li>
+  {{ end }}
+</ul> -->

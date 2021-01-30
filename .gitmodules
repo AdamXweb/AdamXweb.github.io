@@ -1,3 +1,4 @@
-[submodule "themes/hugo-theme-codex"]
-	path = themes/hugo-theme-codex
-	url = https://github.com/jakewies/hugo-theme-codex.git
+[submodule "public"]
+	path = public
+	url = git@github.com:AdamXweb/AdamXweb.github.io.git
+	branch = master

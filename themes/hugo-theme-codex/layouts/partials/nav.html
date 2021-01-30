@@ -1,0 +1,9 @@
+<nav role="navigation" class="top">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main.ByWeight }}
+  <a {{ if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section .Identifier) }} class="nav-link active"
+    {{end}} href="{{ .URL }}" class="nav-link amain">{{ .Name }}
+  </a>
+  {{ end }}
+
+</nav>

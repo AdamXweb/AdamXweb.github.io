@@ -26,7 +26,7 @@ The main areas which i'll be posting are:
 - General.
 
 ## My socials
-{{< instagram_simple B_ZIYE7Abby hidecaption >}}
+{{< instagram B_ZIYE7Abby hidecaption >}}
 
 If you're looking for constant content by me, I'm most active on Instagram.
 You can also find the source code for most of my projects on my [Github](https://github.com/AdamXweb)
