@@ -7,7 +7,7 @@ keywords = ["trennial 2021", "national gallery of Victoria Trennial", "NGV", "NG
 math = false
 slug = "ngv-trennial-2021-visit"
 tags = ["photography", "Travel"]
-title = "NGV Trennial 2021"
+title = "NGV Trennial Visit 2021"
 toc = false
 
 +++
