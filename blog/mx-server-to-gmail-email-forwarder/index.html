@@ -2,26 +2,48 @@
 <html lang="en-us">
 
 <head>
-  <title>Speeding up e-mails and ditching the MX server | Adam Kostarelas</title>
-
   <meta charset="UTF-8">
-  <meta name="language" content="en">
-  <meta name="description"
-    content="Making it quicker to receive e-mails">
-  <meta name="keywords" content="godaddy faster email delivery , email forwarding to gmail , mx forwarding">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+<meta name="language" content="en">
+  <title>Speeding up e-mails and ditching the MX server |
+      Adam Kostarelas</title>
+<meta itemprop="name" content="Speeding up e-mails and ditching the MX server |
+      Adam Kostarelas" />
+<meta name="description"
+    content="Making it quicker to receive e-mails">
+<meta property="og:description"
+    content="Making it quicker to receive e-mails">
+<meta itemprop="description"
+    content="Making it quicker to receive e-mails">
+<meta name="keywords" content="godaddy faster email delivery , email forwarding to gmail , mx forwarding">
+<meta name="coverage" content="Worldwide" />
+<meta name="distribution" content="Global" />
+<meta name="HandheldFriendly" content="True" />
 
-  
-  
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Speeding up e-mails and ditching the MX server" />
-  <meta name="twitter:description"
-    content="Making it quicker to receive e-mails" />
-  <meta name="twitter:site" content="@https://twitter.com/adamxweb" />
-  <meta name="twitter:creator" content="@https://twitter.com/adamxweb" />
-  
+<meta itemprop="image" content="https://adam.kostarelas.com/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png" />
+<meta property="og:image" content="https://adam.kostarelas.com/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png" />
+<meta name="twitter:image" content="https://adam.kostarelas.com/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png" />
+<meta name="twitter:image:src" content="https://adam.kostarelas.com/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png" />
+
+ 
+ 
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Speeding up e-mails and ditching the MX server" />
+ <meta name="twitter:description"
+     content="Making it quicker to receive e-mails" />
+ <meta name="twitter:site" content="@https://twitter.com/adamxweb" />
+ <meta name="twitter:creator" content="@https://twitter.com/adamxweb" />
+ 
+
+ <link rel="sitemap" type="application/xml" title="Sitemap" href="https://adam.kostarelas.com/sitemap.xml" />
+
+ 
+ <meta name="robots" content="index,follow" />
+ <meta name="googlebot" content="index,follow" />
+  <link rel="canonical" href="https://adam.kostarelas.com">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
@@ -165,25 +187,25 @@ if (!doNotTrack) {
 <p>Previously, I was too young to take control of the administration of the domain, but today was the last straw, thanks to two step verification.</p>
 <p>I was setting up a service on a new device that of course asked for a 2 step verification code. Usually with platforms like Gmail, Outlook and fast SMTP servers, you&rsquo;d get a push notification instantly.</p>
 <p>Unfortunately today was not this shared server&rsquo;s day. The e-mail was received at 2:24pm, and set up to forward to my G-mail (redundancy) where it arrived at 2:50pm a whole 26 mins later.</p>
-<p>For some of my other projects, i&rsquo;ve been using a service called <a href="improvmx.com" title="ImprovMX Website">ImprovMX</a> that forwards e-mails to my Gmail.<br>
+<p>For some of my other projects, i&rsquo;ve been using a service called <a href="improvmx.com" title="ImprovMX Website">ImprovMX</a> that forwards e-mails to my Gmail.
 They offer a free forwarding service that gives great service delivery rates. They also offer a premium SMTP that bypasses my guide&rsquo;s few steps.</p>
 <p>Our use case was that most of the users were already fowarding e-mail to Gmail, and with sign off from them all, we decided to pull the plug on Godaddy and Cpanel.</p>
 <p>The benefit of ditching shared hosting handling our emails is that incoming emails delivered through the relay are delivered within 5 seconds, which is tolerable compared to the 26 mins. Outgoing e-mails are also going through TLS through Gmail, which adds a layer of security.</p>
 <h2 id="guide">Guide<a class="anchor" href="#guide">#</a></h2>
-<p>Things to know:<br>
-- Our DNS is managed by Cloudflare, which makes switching MX records super easy and quick.<br>
-- Users who had Mailboxes on Cpanel won&rsquo;t receive mail there anymore, but at the new address<br>
-- Privacy may be compromised using Google&rsquo;s services (if that&rsquo;s where you&rsquo;re forwarding emails to)<br>
+<p>Things to know:
+- Our DNS is managed by Cloudflare, which makes switching MX records super easy and quick.
+- Users who had Mailboxes on Cpanel won&rsquo;t receive mail there anymore, but at the new address
+- Privacy may be compromised using Google&rsquo;s services (if that&rsquo;s where you&rsquo;re forwarding emails to)
 - If you&rsquo;ve already got forwarding set up and want to know how to use a faster SMTP with gmail, skip to [Step 3](<a href="https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder#Step">https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder#Step</a> 3)</p>
 <h3 id="step-1">Step 1<a class="anchor" href="#step-1">#</a></h3>
 <p>Set up Redundancies</p>
 <p>Before making the switch, first it&rsquo;s time to set up ImprovMX, and configure all the e-mail aliases.</p>
 <p><img src="/uploads/screen-shot-2020-07-30-at-5-09-32-pm.png" alt=""></p>
-<p>You&rsquo;ll notice that you aren&rsquo;t receiving e-mails yet, and that&rsquo;s ok.<br>
+<p>You&rsquo;ll notice that you aren&rsquo;t receiving e-mails yet, and that&rsquo;s ok.
 Once you&rsquo;ve matched e-mail to e-mail it&rsquo;s time to make a switch</p>
 <h3 id="step-2">Step 2<a class="anchor" href="#step-2">#</a></h3>
 <p>(optional to use Cloudflare but recommended)</p>
-<p>You can use whatever DNS option you like, however I use Cloudflare for many conveniences.<br>
+<p>You can use whatever DNS option you like, however I use Cloudflare for many conveniences.
 <img src="/uploads/screen-shot-2020-07-30-at-5-40-00-pm.png" alt=""></p>
 <p>Create or update the records to match ImprovMX&rsquo;s mail servers of mx1 and mx2 (redundancies so if one doesn&rsquo;t work, the second one still relays mail)</p>
 <p>This step is going to change who receives the e-mails so keep that in mind.<img src="/uploads/screen-shot-2020-07-30-at-5-38-17-pm.png" alt=""></p>
