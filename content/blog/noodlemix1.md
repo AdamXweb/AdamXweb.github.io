@@ -2,7 +2,7 @@
 title: 'Noodle Mix 1: Chapagetti and Shin Ramyun'
 date: 2020-07-12T17:48:23.000+10:00
 slug: noodle-mix-chapagetti-shin-ramyun
-description: I see what it's like to mix Shin Ramyun, a Spicy noodle packet with Chapagetti. It's a quick and easy guide to follow along at home to have a delicious lunch or dinner.
+description: I see what it is like to mix Shin Ramyun, a Spicy noodle packet with Chapagetti. Find out how quick and easy you can follow along at home to have a delicious lunch or dinner.
 image: /uploads/noodlemix1.png
 keywords:
 - korean noodles

@@ -1,10 +1,7 @@
 <!-- JSON-LD -->
 <script type="application/ld+json">
+  {{ if .IsPage}}
   {
-    {
-      if and(.IsPage)(eq.Section "blog")
-    }
-  } {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": {
@@ -26,31 +23,15 @@
     "dateModified": "{{ .Date }}",
     "url": "{{ .Permalink }}",
     "wordCount": "{{ .WordCount }}",
-    "keywords": [{
-        {
-          if isset.Params "keywords"
-        }
-      } {
-        {
-          range.Params.keywords
-        }
-      }
-      "{{ . }}", {
-        {
-          end
-        }
-      } {
-        {
-          end
-        }
-      }
+    {{ if eq .Section "blog"}}
+    "keywords": [
+    {{ if isset .Params "keywords" }}
+    {{ range.Params.keywords }} "{{ . }}", {{ end }} {{ end }}
       "Blog"
     ]
-  } {
-    {
-      else
-    }
-  } {
+    {{end}}
+  } {{else}}
+  {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "url": "{{ .Permalink }}",
@@ -60,9 +41,5 @@
       "name": "Adam Kostarelas"
     },
     "description": "{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"
-  } {
-    {
-      end
-    }
-  }
+  } {{ end }}
 </script>
