@@ -5,4 +5,8 @@ type: static
 ---
 ## List of my current projects
 
-- [Topre Design](https://topre.design)
+- [Topre Group](https://topre.com.au/)
+
+- [Aussie.fm Search](https://search.aussie.fm)
+
+- [Desktopaint](https://github.com/TopreGroup/Desktopaint)
