@@ -3,7 +3,7 @@ author = "Adam Kostarelas"
 date = 2021-01-29T13:00:00Z
 description = "Visit to NGV Trennial 2021"
 draft = true
-image = ""
+image = "/ngvtrennial.png"
 keywords = ["trennial 2021", "national gallery of Victoria Trennial", "NGV", "NGV Trennial"]
 math = false
 slug = "ngv-trennial-2021-visit"
@@ -13,6 +13,8 @@ toc = false
 
 +++
 # Trennial 2020
+
+![](/uploads/ngvtrennial.png)
 
 Visiting NGV has been close to the top of my to-do list, ever since everything in Melbourne closed with the lockdown.
 
