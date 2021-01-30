@@ -75,57 +75,8 @@
    
   
 <script type="application/ld+json">
+  
   {
-    {
-      if and(.IsPage)(eq.Section "blog")
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https:\/\/adam.kostarelas.com\/"
-    },
-    "articleSection": "categories",
-    "name": "Categories",
-    "headline": "Categories",
-    "description": "",
-    "inLanguage": "en-US",
-    "author": "Adam Kostarelas",
-    "creator": "Adam Kostarelas",
-    "publisher": "Adam Kostarelas",
-    "accountablePerson": "Adam Kostarelas",
-    "copyrightHolder": "Adam Kostarelas",
-    "copyrightYear": "0001 ",
-    "datePublished": "0001-01-01 00:00:00 \u002b0000 UTC",
-    "dateModified": "0001-01-01 00:00:00 \u002b0000 UTC",
-    "url": "https:\/\/adam.kostarelas.com\/categories\/",
-    "wordCount": "0",
-    "keywords": [{
-        {
-          if isset.Params "keywords"
-        }
-      } {
-        {
-          range.Params.keywords
-        }
-      }
-      "Page(\/categories)", {
-        {
-          end
-        }
-      } {
-        {
-          end
-        }
-      }
-      "Blog"
-    ]
-  } {
-    {
-      else
-    }
-  } {
     "@context": "http://schema.org",
     "@type": "WebSite",
     "url": "https:\/\/adam.kostarelas.com\/categories\/",
@@ -135,11 +86,7 @@
       "name": "Adam Kostarelas"
     },
     "description": ""
-  } {
-    {
-      end
-    }
-  }
+  } 
 </script>
 <script type="application/javascript">
 var doNotTrack = false;

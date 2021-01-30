@@ -70,11 +70,8 @@
    
   
 <script type="application/ld+json">
+  
   {
-    {
-      if and(.IsPage)(eq.Section "blog")
-    }
-  } {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": {
@@ -96,45 +93,14 @@
     "dateModified": "2020-07-10 14:12:12 \u002b1000 AEST",
     "url": "https:\/\/adam.kostarelas.com\/blog\/first-post\/",
     "wordCount": "143",
-    "keywords": [{
-        {
-          if isset.Params "keywords"
-        }
-      } {
-        {
-          range.Params.keywords
-        }
-      }
-      "Page(\/blog\/:welcome.md)", {
-        {
-          end
-        }
-      } {
-        {
-          end
-        }
-      }
+    
+    "keywords": [
+    
+     "general",  
       "Blog"
     ]
-  } {
-    {
-      else
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https:\/\/adam.kostarelas.com\/blog\/first-post\/",
-    "name": ":\/\/ Welcome",
-    "author": {
-      "@type": "Person",
-      "name": "Adam Kostarelas"
-    },
-    "description": "This is my blog!"
-  } {
-    {
-      end
-    }
-  }
+    
+  } 
 </script>
 <script type="application/javascript">
 var doNotTrack = false;
