@@ -26,7 +26,7 @@ Each trophy has it's own inscriptions, which are fragments of conversations Stin
 
 ![](/uploads/_dsf2347.jpg)
 
-While great to have features from overseas, it was exciting to see some local Australian art from [Dhambit Mununggurr](https://www.ngv.vic.gov.au/exhibition/triennial-2020/#DhambitMununggurr "NGV exhibit info"). This installation "Can we all have a happy life" includes 9  larrakitj (hollow poles) and 15 paintings. The colours of the blues are amazingly vibrant. It apparently is customary for the artists in their region to paint with ochres collected from the natural environment. With these pigments, they are ground on a stone, mixed with water and glue and then applied to the surfaces. 
+While great to have features from overseas, it was exciting to see some local Australian art from [Dhambit Mununggurr](https://www.ngv.vic.gov.au/exhibition/triennial-2020/#DhambitMununggurr "NGV exhibit info"). This installation "Can we all have a happy life" includes 9  larrakitj (hollow poles) and 15 paintings. The colours of the blues are amazingly vibrant. It apparently is customary for the artists in their region to paint with ochres collected from the natural environment. With these pigments, they are ground on a stone, mixed with water and glue and then applied to the surfaces.
 
 ![](/uploads/_dsf2356.jpg)
 
@@ -34,10 +34,14 @@ A significant space was occupied by Porky Hefer's [work](https://youtu.be/PZvrdD
 
 ![](/uploads/_dsf2395.jpg)
 
+![](/uploads/_dsf2405.jpg)
+
+![](/uploads/_dsf2497.jpg)
+
 While not having
 
 ![GIF of Carnovsky](/uploads/wall.gif "Carnovsky Extinctions")
 
-At the end of your tour, I'll advise to have a look at the NGV design store. There's often quite a large selection of art/design-related books, as well as a few 
+At the end of your tour, I'll advise to have a look at the NGV design store. There's often quite a large selection of art/design-related books, as well as a few
 
 NGV's Trennial is a free exhibition being held at the NGV International on St Kilda Rd. It's available until April 18 2021 with free [tickets](https://www.ngv.vic.gov.au/exhibition/triennial-2020/ "Trennial tickets").
