@@ -14,37 +14,45 @@ toc = false
 +++
 # Trennial 2020
 
-![](/uploads/ngvtrennial.png)
+![NGV trennial visit 2021 - Image fallen fruit](/uploads/ngvtrennial.png "Fallen fruit - Hero image")
 
-Visiting NGV has been close to the top of my to-do list, ever since everything in Melbourne closed with the lockdown.
+Visiting NGV has been close to the top of my to-do list of places to visit with the Melbourne lock-down slowly lifting.
 
-This collection is a few of the highlights on my visit.
+This collection of photos are a few of the highlights on my visit.
 
-![](/uploads/_dsf2414.jpg)
+The first feature is an [animated work of art](https://youtu.be/oFsjVtmnbS0 "youtube video") that uses a dataset of images of nature to base the colours of the mesmerising waves. Refik Anadol's piece of art inspired me to add a new project to my list for a web based adaptation...
 
-When you enter, you'll eventually make your way into the first big room with Diamond Stingily "In the middle but in the corner of 176th place".
+![Refik Anadol Quantum Memories](/uploads/_dsf2414.jpg "Quantum Memorie")
+
+When you enter, the first sections are filled with photos, prominently from African artists. I'm a huge fan of pieces of work that involve colour and intricate use of shadow and light. (it's best to view the photos in person.)
+
+You'll eventually make your way into the first big room with Diamond Stingily "In the middle but in the corner of 176th place".
 
 ![Diamond Stingily](/uploads/_dsf2345.jpg "In the Middle but in the corner of 176th place")
 
 Each trophy has it's own inscriptions, which are fragments of conversations Stingily had with her grandmother and her older brother, who is a retired NFL player, in addition to her own quotes and those of other artists and poets.
 
-![](/uploads/_dsf2347.jpg)
+![Diamond Stingily trophy](/uploads/_dsf2347.jpg "YOu can't get there on your own but you want to imagine you can")
 
 While great to have features from overseas, it was exciting to see some local Australian art from [Dhambit Mununggurr](https://www.ngv.vic.gov.au/exhibition/triennial-2020/#DhambitMununggurr "NGV exhibit info"). This installation "Can we all have a happy life" includes 9  larrakitj (hollow poles) and 15 paintings. The colours of the blues are amazingly vibrant. It apparently is customary for the artists in their region to paint with ochres collected from the natural environment. With these pigments, they are ground on a stone, mixed with water and glue and then applied to the surfaces.
 
-![](/uploads/_dsf2356.jpg)
+![Larrakitj blue](/uploads/_dsf2356.jpg "Dhambit Mununggurr blue Larrakitj")
 
-A significant space was occupied by Porky Hefer's [work](https://youtu.be/PZvrdD_wW78 "youtube interview") "Plastocene - Marine Mutants from a disposable world".
+A significant space was occupied by Porky Hefer's [work](https://youtu.be/PZvrdD_wW78 "youtube interview") "Plastocene - Marine Mutants from a disposable world". The scales in the image below are amazing to stare at with the light and shadows.
 
-![](/uploads/_dsf2395.jpg)
+![Blue animal](/uploads/_dsf2395.jpg "Porky Hefer cotton bud")
 
-![](/uploads/_dsf2405.jpg)
+Can you spot the two aeroplanes on the green monster?
 
-![](/uploads/_dsf2535.jpg)
+![](/uploads/_dsf2405.jpg "Porky Hefer green")
+
+A rather interesting way that Trennial is presented at the NGV, is through the use of integrating the installations into the every day sections. The first image below consists of RGB wallpapers to interact with the different coloured stimulus. When the light projections change from Red, to Green to Blue, a new image and species are concealed and revealed.
+
+![Image with all three colours](/uploads/_dsf2535.jpg "Carnovsky")
 
 While not having
 
-![GIF of Carnovsky](/uploads/wall.gif "Carnovsky Extinctions")
+![](/uploads/wall.gif)
 
 ![](/uploads/_dsf2577.jpg)
 
@@ -53,3 +61,5 @@ While not having
 At the end of your tour, I'll advise to have a look at the NGV design store. There's often quite a large selection of art/design-related books, as well as a few
 
 NGV's Trennial is a free exhibition being held at the NGV International on St Kilda Rd. It's available until April 18 2021 with free [tickets](https://www.ngv.vic.gov.au/exhibition/triennial-2020/ "Trennial tickets").
+
+If you have any comments, feel free to [tweet me @adamxweb](https://twitter.com/AdamXweb "Twitter link")
