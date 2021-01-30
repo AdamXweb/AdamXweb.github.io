@@ -18,7 +18,8 @@ googleAnalytics = "UA-38731586-1"
   # Follow the Hugo date/time format reference here:
   # https://gohugo.io/functions/format/#gos-layout-string
   dateFormat = "Jan 2 2006"
-
+  description = "My name is Adam Kostarelas. Check out my Blog and Projects to see what I have been working on. Alternatively you can find most of my tech projects on Github under AdamXweb."
+  ogimage = "/images/ogimage.png"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   github = "https://github.com/adamxweb"
   # email = "mailto:<your email>"

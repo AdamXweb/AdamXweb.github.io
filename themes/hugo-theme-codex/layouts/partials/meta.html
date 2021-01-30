@@ -1,0 +1,45 @@
+<!-- Meta tags-->
+<meta name="language" content="en">
+  <title>{{ if .IsHome }}{{ "My Web of Adventures | Adam Kostarelas" }}{{ else }}{{ .Title }} |
+      {{ .Site.Title }}{{ end }}</title>
+<meta itemprop="name" content="{{ if .IsHome }}{{ "My Web of Adventures | Adam Kostarelas" }}{{ else }}{{ .Title }} |
+      {{ .Site.Title }}{{ end }}" />
+<meta name="description"
+    content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+<meta property="og:description"
+    content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+<meta itemprop="description"
+    content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+<meta name="keywords" content="{{ delimit .Keywords " , " }}">
+<meta name="coverage" content="Worldwide" />
+<meta name="distribution" content="Global" />
+<meta name="HandheldFriendly" content="True" />
+{{ with .Params.image }}
+<meta itemprop="image" content="{{ . | absURL }}" />
+<meta property="og:image" content="{{ . | absURL }}" />
+<meta name="twitter:image" content="{{ . | absURL }}" />
+<meta name="twitter:image:src" content="{{ . | absURL }}" />
+{{ else }}
+<meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+<meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" />
+{{ end }}
+ <!-- Twitter -->
+ {{ if isset .Site.Params "twitter" }}
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="{{ .Title }}" />
+ <meta name="twitter:description"
+     content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}" />
+ <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+ <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+ {{ end }}
+
+ <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" />
+
+ {{ with .OutputFormats.Get "RSS" }}
+ <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+ <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+ {{ end }}
+ <meta name="robots" content="index,follow" />
+ <meta name="googlebot" content="index,follow" />
