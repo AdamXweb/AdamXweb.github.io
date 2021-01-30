@@ -2,7 +2,7 @@
 author = "Adam Kostarelas"
 date = 2021-01-29T13:00:00Z
 description = "Visit to NGV Trennial 2021"
-image = "/ngvtrennial.png"
+image = "/uploads/ngvtrennial.png"
 keywords = ["trennial 2021", "national gallery of Victoria Trennial", "NGV", "NGV Trennial"]
 math = false
 slug = "ngv-trennial-2021-visit"
