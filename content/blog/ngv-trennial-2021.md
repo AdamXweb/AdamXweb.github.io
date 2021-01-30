@@ -1,7 +1,7 @@
 +++
 author = "Adam Kostarelas"
 date = 2021-01-29T13:00:00Z
-description = "Visit to NGV Trennial 2021"
+description = "Visit to NGV Trennial 2021 - My highlights, summary and photos of the wonerful free experience. Trennial is running until 18th of April 2021."
 image = "/uploads/ngvtrennial.png"
 keywords = ["trennial 2021", "national gallery of Victoria Trennial", "NGV", "NGV Trennial"]
 math = false
