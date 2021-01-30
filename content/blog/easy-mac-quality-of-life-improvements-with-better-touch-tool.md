@@ -2,7 +2,7 @@
 author = "Adam Kostarelas"
 date = 2021-01-03T13:00:00Z
 description = "Easy tweaks using Apps to make using your Mac easier"
-image = "/qoli.png"
+image = "/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-3840x2160-1455.png"
 keywords = ["desktopaint mac", "window management improvements for mac", "better touch tool uses", "quality of life improvements for mac", "mac apps"]
 math = false
 slug = "easy-mac-quality-of-life-improvements"
@@ -13,7 +13,7 @@ toc = false
 +++
 It's easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here's a few suggestions.
 
-![](/uploads/qoli.png)
+![Quality of LIfe improvements](/uploads/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-3840x2160-1455.png "Hero intro")
 
 ## Better Touch Tool
 
@@ -115,6 +115,6 @@ This one isn't quite what you think of with 'improvement, however it can make yo
 
 ## Conclusion
 
-There are many apps out there that you may not have tried that make your day a little bit better. 
+There are many apps out there that you may not have tried that make your day a little bit better.
 
 Feel free to tweet me @[adamxweb](https://twitter.com/adamxweb "Adam's Twitter") to continue the conversation further
