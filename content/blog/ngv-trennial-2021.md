@@ -2,7 +2,6 @@
 author = "Adam Kostarelas"
 date = 2021-01-29T13:00:00Z
 description = "Visit to NGV Trennial 2021"
-draft = true
 image = "/ngvtrennial.png"
 keywords = ["trennial 2021", "national gallery of Victoria Trennial", "NGV", "NGV Trennial"]
 math = false
@@ -50,16 +49,24 @@ A rather interesting way that Trennial is presented at the NGV, is through the u
 
 ![Image with all three colours](/uploads/_dsf2535.jpg "Carnovsky")
 
-While not having
+GIF of the colours changing
 
-![](/uploads/wall.gif)
+![Carnovsky GIF](/uploads/wall.gif "Carnovsky GIF")
 
-![](/uploads/_dsf2577.jpg)
+Whilst not having a similar nature of interactive installations as the previous Trennial; (I understand restrictions were in place to reduce interactivity) there were still quite a few great individual pieces. 
 
-![](/uploads/_dsf2579.jpg)
+![Danielle Brustman](/uploads/_dsf2577.jpg)
+
+I personally think that walking through the NGV, there wasn't an overarching theme to glue everything together, however that ultimately can be a reflection of the separated lives we've been living in 2020. One of my favorite pieces is [Des Lawrence Henry Worsley](https://www.ngv.vic.gov.au/media_release/ngv-triennial-2020/ "Image") which can be viewed in higher resolution [here](https://content.ngv.vic.gov.au/col-images/api/EXHI062572/xxl "image link")
+
+![Des Lawrence Henry Worsley](/uploads/_dsf2579.jpg "Des Lawrence Henry Worsley")
+
+The BTVV installation of "Walls 4 Sale" is a great place to reflect and really have some fun with the scale of objects!
 
 At the end of your tour, I'll advise to have a look at the NGV design store. There's often quite a large selection of art/design-related books, as well as a few
 
-NGV's Trennial is a free exhibition being held at the NGV International on St Kilda Rd. It's available until April 18 2021 with free [tickets](https://www.ngv.vic.gov.au/exhibition/triennial-2020/ "Trennial tickets").
+Keep in mind there are many more installations that I haven't covered or talked about here. NGV's Trennial is a free exhibition being held at the NGV International on St Kilda Rd. It's available until April 18 2021 with free [tickets](https://www.ngv.vic.gov.au/exhibition/triennial-2020/ "Trennial tickets").
+
+Even if you don't go in, you can admire Julian Opie's "Crows" out the front on St Kilda Rd.
 
 If you have any comments, feel free to [tweet me @adamxweb](https://twitter.com/AdamXweb "Twitter link")
