@@ -18,6 +18,8 @@ Visiting NGV has been close to the top of my to-do list, ever since everything i
 
 This collection is a few of the highlights on my visit.
 
+![](/uploads/_dsf2414.jpg)
+
 When you enter, you'll eventually make your way into the first big room with Diamond Stingily "In the middle but in the corner of 176th place".
 
 ![Diamond Stingily](/uploads/_dsf2345.jpg "In the Middle but in the corner of 176th place")
@@ -36,11 +38,15 @@ A significant space was occupied by Porky Hefer's [work](https://youtu.be/PZvrdD
 
 ![](/uploads/_dsf2405.jpg)
 
-![](/uploads/_dsf2497.jpg)
+![](/uploads/_dsf2535.jpg)
 
 While not having
 
 ![GIF of Carnovsky](/uploads/wall.gif "Carnovsky Extinctions")
+
+![](/uploads/_dsf2577.jpg)
+
+![](/uploads/_dsf2579.jpg)
 
 At the end of your tour, I'll advise to have a look at the NGV design store. There's often quite a large selection of art/design-related books, as well as a few
 
