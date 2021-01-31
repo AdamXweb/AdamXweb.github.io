@@ -9,19 +9,24 @@
 
 <div class="post-list__container">
 
-  <ul class="post-list">
+   <div class="row w-100">
     {{ range .Pages }}
-    <li class="post">
-      <div class="post__header">
-        <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
-        <h2 class="post__title">
-          <a href="{{.RelPermalink}}">{{ .Title }}</a>
-        </h2>
-        {{ partial "tags.html" .}}
+
+      <div class="pst">
+         <a class="overlay" href="{{.RelPermalink}}"></a>
+         <div class="post__header">
+          <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
+          <h2 class="post__title">
+          {{ .Title }}
+          </h2>
+          {{ partial "tags.html" .}}
+        </div>
+        <img src="{{ partial "image.html" .}}" alt="" sizes="50vw" srcset="{{ partial "image.html" .}} 4500w"
+          class="pstimg">
       </div>
-    </li>
+
     {{ end }}
-  </ul>
+  </div>
 </div>
 <footer class="post__footer">
   {{ partial "social-icons.html" .}}
