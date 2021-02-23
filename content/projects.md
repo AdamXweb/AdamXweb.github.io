@@ -5,6 +5,8 @@ type: static
 ---
 ## List of my current projects
 
+- [Price Possum](https://pricepossum.com/)
+
 - [Topre Group](https://topre.com.au/)
 
 - [Aussie.fm Search](https://search.aussie.fm)
