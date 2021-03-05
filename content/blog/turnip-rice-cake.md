@@ -20,12 +20,24 @@ The moisture content of radish varies a lot, and can be difficult to cook..
 
 ## Ingredients
 
-* Chinese Sausage Lup Chong (We used this)
+* Chinese Sausage Lup Chong 腊肠 (We used this brand but you can use whatever is convenient)
 
-![](/uploads/043210.jpg)
+![Chinese Sausage packet](/uploads/043210.jpg "腊肠")
 
-* 
-* 
+* 1 Turnip (500g)
+* Sticky rice flour (2x 400g bags)
+* Cornstarch (1x 400g bag)
+* Dried shrimp (50g)
+* Seaweed (5g)
+* Dried scallop (50g)
+
+### Sauces / Other
+
+* Dark soy sauce
+* Light soy sauce
+* Fish sauce (optional)
+* Spray olive oil
+* white pepper
 
 ## Step 1
 
