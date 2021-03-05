@@ -16,4 +16,25 @@ toc = false
 
 腊味萝卜糕 (Làwèi luóbo gāo) is a yum cha dish that is also popularly consumed during Lunar New Year. This version has a special twist, not the usual hong kong style however has an addition of a sea taste (seaweed)
 
-The moisture content of radish varies a lot, and can be difficult to cook.
+The moisture content of radish varies a lot, and can be difficult to cook..
+
+## Ingredients
+
+* Chinese Sausage Lup Chong (We used this)
+
+![](/uploads/043210.jpg)
+
+* 
+* 
+
+## Step 1
+
+Shred half the turnip into fine strips, and cut the other half into thicker strips to provide some texture.
+
+![](/uploads/img_4166.JPG)
+
+Put it into a big wok and mix them, cooking on low heat for the excess water to come out (don't strain this though).
+
+## Step 2
+
+Cut up chinese sausage
