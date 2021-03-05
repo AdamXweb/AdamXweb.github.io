@@ -20,7 +20,7 @@ The moisture content of radish varies a lot, and can be difficult to cook..
 
 ## Ingredients
 
-* Chinese Sausage Lup Chong 腊肠 (We used this brand but you can use whatever is convenient)
+* Chinese Sausage Lup Chong 腊肠 (We used this brand but you can use whatever is convenient) 1/2 pack
 
 ![Chinese Sausage packet](/uploads/043210.jpg "腊肠")
 
@@ -30,14 +30,18 @@ The moisture content of radish varies a lot, and can be difficult to cook..
 * Dried shrimp (50g)
 * Seaweed (5g)
 * Dried scallop (50g)
+* Shiitake mushroom (8 mushrooms, dried recommended for flavour, need to submerge into water for 3 hours in advance, then squeeze the water out).
+
+Amounts are rough, however it may be more flavorful if you add more shrimp,scallop or sausage.
 
 ### Sauces / Other
 
-* Dark soy sauce
-* Light soy sauce
-* Fish sauce (optional)
+* 2 table spoon Dark soy sauce
+* 3 table spoon Light soy sauce
+* 2 tea spoon Fish sauce (optional)
 * Spray olive oil
-* white pepper
+* 1 tea spoon white pepper (feel free to add more if you like it to be more spicy)
+* 3 table spoon of sugar
 
 ## Step 1
 
@@ -45,8 +49,39 @@ Shred half the turnip into fine strips, and cut the other half into thicker stri
 
 ![](/uploads/img_4166.JPG)
 
-Put it into a big wok and mix them, cooking on low heat for the excess water to come out (don't strain this though).
+Put it into a big wok and mix them, cooking on low heat for the excess water to come out (don't strain this though) for 15 mins. We don't want to over cook the radish at this stage as they will be steamed later.
 
 ## Step 2
 
-Cut up chinese sausage
+Cut up Chinese sausage, shrimp, scallop and shiitake mushroom into small pieces. 
+
+Heat up the pan and put all of them and a bit of Chinese seaweed (Zi cai) in to lightly roast until the fat from sausages comes out and everything is slightly browned. 
+
+![](/uploads/img_4165.JPG)
+
+## Step 3
+
+* Mix the roasted ingredients above and radish. 
+* Add salt, white pepper, dark and light soy sauce (ratio 1:2), sugar, fish sauce (optional) into the mix for flavour, you can taste it as you go. At this stage, it can be a bit too salty but later after the flour mix is in, you can taste again to make sure it's good.
+* \[insert pic\]![](/uploads/img_4167.JPG)
+* Mix the flour ingredients listed above with appropriate amount of water until the mix looks a bit sticky but still fluid. 
+* \[insert pic\]![](/uploads/img_4170.JPG)
+* Add the flour mix into the radish mix, stir until it looks like a wet dough, adjust flavour accordingly as you mix
+* \[insert pic\]![](/uploads/img_4175.JPG)
+* you should aim for this consistency (above) too wet
+
+## Step 4
+
+* Spray olive oil on a Aluminium box before put the wet-dough like mix in to 8/10 full so there will be room for it to rise
+* \[insert picture\]![](/uploads/img_4181.JPG)
+* Steam the mix for 60-90 mins on medium to big fire until it's cooked. The way to check is exactly how you check if a cake is ready - stick a fork or stick in and pull out, if there's no paste is stuck to it then it's cooked! 
+* \[insert picture\]![](/uploads/img_4186.JPG)
+
+## Step 5 
+
+* Cool the Radish cake down and put it into the fridge over night or at least for 3 hours before you eat. This step may seems unnecessary but actually very important to mould the cake and also change the texture! 
+* \[insert picture\]![](/uploads/img_4189.JPG)
+* Once it's properly fridged, you can slice them and pan fried (low heat, add a bit of oil, until it's golden) or steam them again - then Voila, it's done! Enjoy! Bon apetite 
+* \[insert picture\] ![](/uploads/img_4190.JPG)
+* Recommend dipping sauce : sirricha / sweet chilli sauce/ sweet and sour sauce, recommendation in sequence
+  * 
