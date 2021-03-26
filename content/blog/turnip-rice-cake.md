@@ -8,7 +8,7 @@ math = false
 slug = "turnip-rice-cake"
 tags = ["Cooking"]
 title = "Turnip rice cake (腊味萝卜糕)"
-toc = false
+toc = true
 
 +++
 ![Turnip Rice Cake](/uploads/turnipricecake.png "RiceCake")
