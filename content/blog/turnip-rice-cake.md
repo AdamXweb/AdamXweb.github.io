@@ -2,7 +2,7 @@
 author = "Adam Kostarelas"
 date = 2021-02-11T13:00:00Z
 description = "Making traditional Turnip rice cake known as 腊味萝卜糕 in Chinese."
-draft = true
+draft = false
 image = ""
 keywords = ["turnip rice cake", "腊味萝卜糕"]
 math = false
