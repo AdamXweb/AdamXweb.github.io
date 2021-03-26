@@ -2,7 +2,7 @@
 author = "Adam Kostarelas"
 date = 2020-07-30T04:00:00Z
 description = "Making it quicker to receive e-mails"
-image = "/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png"
+image = "/uploads/emailforward.png"
 keywords = ["godaddy faster email delivery", "email forwarding to gmail", "mx forwarding"]
 math = false
 slug = "mx-server-to-gmail-email-forwarder"
@@ -11,7 +11,7 @@ title = "Speeding up e-mails and ditching the MX server"
 toc = true
 
 +++
-![ImprovMX website](/uploads/screen-shot-2020-07-30-at-5-03-26-pm.png "ImprovMX")
+![ImprovMX website](/uploads/emailforward.png "ImprovMX")
 
 ## I've had enough with shared hosting.
 

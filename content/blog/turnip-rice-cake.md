@@ -1,9 +1,8 @@
 +++
 author = "Adam Kostarelas"
-date = 2021-02-11T13:00:00Z
+date = 2021-02-20T13:00:00Z
 description = "Making traditional Turnip rice cake known as 腊味萝卜糕 in Chinese."
-draft = false
-image = ""
+image = "/uploads/turnipricecake.png"
 keywords = ["turnip rice cake", "腊味萝卜糕"]
 math = false
 slug = "turnip-rice-cake"
@@ -12,7 +11,7 @@ title = "Turnip rice cake (腊味萝卜糕)"
 toc = false
 
 +++
-# Turnip rice cake (腊味萝卜糕)
+![Turnip Rice Cake](/uploads/turnipricecake.png "RiceCake")
 
 腊味萝卜糕 (Làwèi luóbo gāo) is a yum cha dish that is also popularly consumed during Lunar New Year. This version has a special twist, it is not the usual hong kong style however has an addition of a sea taste (seaweed).
 
@@ -47,7 +46,7 @@ Amounts are rough, however it may be more flavorful if you add more shrimp, scal
 
 Shred half the turnip into fine strips, and cut the other half into thicker strips to provide some texture.
 
-![](/uploads/img_4166.JPG)
+![Shredded Turnip](/uploads/img_4166.JPG)
 
 Place it into a big wok and mix, cooking on low heat for the excess water to come out (don't strain this though) for 15 mins. We don't want to over cook the radish at this stage as they will be steamed later.
 
