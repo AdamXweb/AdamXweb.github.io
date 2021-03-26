@@ -14,9 +14,9 @@ toc = false
 +++
 # Turnip rice cake (腊味萝卜糕)
 
-腊味萝卜糕 (Làwèi luóbo gāo) is a yum cha dish that is also popularly consumed during Lunar New Year. This version has a special twist, not the usual hong kong style however has an addition of a sea taste (seaweed)
+腊味萝卜糕 (Làwèi luóbo gāo) is a yum cha dish that is also popularly consumed during Lunar New Year. This version has a special twist, it is not the usual hong kong style however has an addition of a sea taste (seaweed).
 
-The moisture content of radish varies a lot, and can be difficult to cook..
+Heads up, The moisture content of radish varies a lot, and can be difficult to cook..
 
 ## Ingredients
 
@@ -30,9 +30,9 @@ The moisture content of radish varies a lot, and can be difficult to cook..
 * Dried shrimp (50g)
 * Seaweed (5g)
 * Dried scallop (50g)
-* Shiitake mushroom (8 mushrooms, dried recommended for flavour, need to submerge into water for 3 hours in advance, then squeeze the water out).
+* Shiitake mushroom (8 mushrooms, dried is recommended for the flavour. You need to submerge into water for 3 hours in advance, then squeeze the water out).
 
-Amounts are rough, however it may be more flavorful if you add more shrimp,scallop or sausage.
+Amounts are rough, however it may be more flavorful if you add more shrimp, scallop or sausage.
 
 ### Sauces / Other
 
@@ -49,39 +49,42 @@ Shred half the turnip into fine strips, and cut the other half into thicker stri
 
 ![](/uploads/img_4166.JPG)
 
-Put it into a big wok and mix them, cooking on low heat for the excess water to come out (don't strain this though) for 15 mins. We don't want to over cook the radish at this stage as they will be steamed later.
+Place it into a big wok and mix, cooking on low heat for the excess water to come out (don't strain this though) for 15 mins. We don't want to over cook the radish at this stage as they will be steamed later.
 
 ## Step 2
 
-Cut up Chinese sausage, shrimp, scallop and shiitake mushroom into small pieces. 
+Cut up Chinese sausage, shrimp, scallop and shiitake mushroom into small pieces.
 
-Heat up the pan and put all of them and a bit of Chinese seaweed (Zi cai) in to lightly roast until the fat from sausages comes out and everything is slightly browned. 
+Heat up the pan and put all of them and a bit of Chinese seaweed (Zi cai) in to lightly roast until the fat from sausages comes out and everything is slightly browned.
 
 ![](/uploads/img_4165.JPG)
 
 ## Step 3
 
-* Mix the roasted ingredients above and radish. 
-* Add salt, white pepper, dark and light soy sauce (ratio 1:2), sugar, fish sauce (optional) into the mix for flavour, you can taste it as you go. At this stage, it can be a bit too salty but later after the flour mix is in, you can taste again to make sure it's good.
-* \[insert pic\]![](/uploads/img_4167.JPG)
-* Mix the flour ingredients listed above with appropriate amount of water until the mix looks a bit sticky but still fluid. 
-* \[insert pic\]![](/uploads/img_4170.JPG)
+* Mix the roasted ingredients above with the radish.
+* Add salt, white pepper, dark and light soy sauce (ratio 1:2), sugar, fish sauce (optional) into the mix to bring out the flavour. You can taste it as you go. At this stage, it can be a bit too salty but after the flour is mixed in, you can taste again to make sure it's good.
+* ![](/uploads/img_4167.JPG)
+* Mix the flour ingredients listed above with appropriate amount of water until the mix looks a bit sticky but still fluid.
+* ![](/uploads/img_4170.JPG)
 * Add the flour mix into the radish mix, stir until it looks like a wet dough, adjust flavour accordingly as you mix
-* \[insert pic\]![](/uploads/img_4175.JPG)
-* you should aim for this consistency (above) too wet
-
+* ![](/uploads/img_4175.JPG)
+* you should aim for roughly for this consistency above.
 ## Step 4
 
-* Spray olive oil on a Aluminium box before put the wet-dough like mix in to 8/10 full so there will be room for it to rise
-* \[insert picture\]![](/uploads/img_4181.JPG)
-* Steam the mix for 60-90 mins on medium to big fire until it's cooked. The way to check is exactly how you check if a cake is ready - stick a fork or stick in and pull out, if there's no paste is stuck to it then it's cooked! 
-* \[insert picture\]![](/uploads/img_4186.JPG)
+* Spray olive oil on an Aluminium box before placing the wet-dough like mix in. Fill up to 8/10 so there will be room to rise
+* ![](/uploads/img_4181.JPG)
+* Steam the mix for 60-90 mins on medium to high flame until it's cooked. The way to check is exactly how you check if a cake is ready - stick a fork or stick in and pull out, if there's no paste stuck to it then it's cooked!
+* ![](/uploads/img_4186.JPG)
 
-## Step 5 
+## Step 5
 
-* Cool the Radish cake down and put it into the fridge over night or at least for 3 hours before you eat. This step may seems unnecessary but actually very important to mould the cake and also change the texture! 
-* \[insert picture\]![](/uploads/img_4189.JPG)
-* Once it's properly fridged, you can slice them and pan fried (low heat, add a bit of oil, until it's golden) or steam them again - then Voila, it's done! Enjoy! Bon apetite 
-* \[insert picture\] ![](/uploads/img_4190.JPG)
+* Cool the Radish cake down and place it into the fridge over night or at least for 3 hours before you eat it. This step may seem unnecessary but is actually very important to mould the cake and to change the texture!
+* ![](/uploads/img_4189.JPG)
+* Once it's properly refridgerated, you can slice pieces and pan fry them (low heat, with a bit of oil, until it's golden) or steam them again.
+* ![](/uploads/img_4190.JPG)
 * Recommend dipping sauce : sirricha / sweet chilli sauce/ sweet and sour sauce, recommendation in sequence
-  * 
+
+## Step 6
+
+* Share and enjoy! Feel free to message me on [twitter](https://twitter.com/adamxweb) to share your results!
+* Voila, Enjoy! Bon apetite.
