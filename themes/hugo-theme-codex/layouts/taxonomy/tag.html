@@ -2,25 +2,28 @@
     {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/tags.scss" "dest" "css/tags.css") }}
 {{ end }}
 
-{{ define "main" }} 
-  {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}        
-    
+{{ define "main" }}
+  {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+
   <div class="post-list__container">
     <div class="tag__header">
       <a href="/blog">All posts</a><span class="separator">/</span>
       <h1 class="tag__term">{{ .Title }}</h1>
     </div>
-    <ul class="post-list">
-      {{ range .Data.Pages }}
-      <li class="post">
-        <div class="post__header">
-          <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
-          <h2 class="post__title">
-            <a href="{{.RelPermalink}}">{{ .Title }}</a>
-          </h2>
+    <div class="row w-100">
+        {{ range .Data.Pages }}
+        <div class="pst">
+          <a class="overlay" href="{{.RelPermalink}}"></a>
+          <div class="post__header">
+            <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
+            <h2 class="post__title">
+              {{ .Title }}
+            </h2>
+          </div>
+          <img src="{{ partial "image.html" .}}" alt="" sizes="50vw" srcset="{{ partial "image.html" .}} 4500w"
+            class="pstimg">
         </div>
-      </li>
-      {{ end }}
-    </ul>
+        {{ end }}
+    </div>
   </div>
 {{ end }}
