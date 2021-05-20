@@ -325,7 +325,11 @@ display: flex;
     .post-list__container{
         flex-wrap: wrap;
     }
-
+    .portimg {
+        max-width: 60px !important;
+        margin: 0 auto 0 auto !important;
+        padding-top: 15px;
+    }
 }
 
 
@@ -517,5 +521,10 @@ display: flex;
     }
     .ht {
         font-size: inherit !important;
+    }
+    .portimg {
+        max-width: 70px !important;
+        margin: 0 auto 0 auto !important;
+        padding-top: 15px;
     }
 }

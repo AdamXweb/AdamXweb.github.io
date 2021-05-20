@@ -46,3 +46,6 @@ type: static
           class="portimg">
     </div>
 </div>
+<p class="post__date">
+Last updated 20th May 2021
+</p>
