@@ -207,7 +207,20 @@ padding-left:1em;
 p {
     color: var(--grey);
 }
-
+.pj{
+    margin-top:0 !important;
+}
+.ls{
+    margin-top:1.5em;
+}
+.portimg{
+    max-width:70px !important;
+    margin: 0 2em 0 auto !important;
+    padding-top: 15px;
+}
+.pjh{
+    align-self: center;
+}
 .card:hover {
     background: var(--mild);
     transition: 0.3s;
