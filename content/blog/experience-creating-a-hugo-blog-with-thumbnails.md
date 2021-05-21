@@ -18,6 +18,8 @@ toc = true
 
 This isn't an official guide, but rather a documentation of my successful migration to Hugo for a business website [Topre design](https://design.topre.com.au)
 
+![Screenshot of topre design website](/uploads/screenshot_2021-05-21-we-build-brands-topre-design.png "Topre design website")
+
 Having recently converted my [website](https://adam.kostarelas.com) to a Hugo site, I thought about how it could save costs with Topre, and efficiently host the code as a static site, securely.
 
 > _TLDR;_  
@@ -30,4 +32,15 @@ Having recently converted my [website](https://adam.kostarelas.com) to a Hugo si
 
 Topre was hosted in a S3 container on AWS. We had built the pages as standard HTML, however we wanted to build in a function to be able to create blog posts, without the effort of a fully blown CMS like Wordpress.
 
-After having some experience with Hugo, I thought it'd be relatively easy to
+After having some experience with Hugo, I thought it'd be relatively easy to migrate the static html files, and somehow keep the uniformed design as a template on the blog.
+
+### Step 2 Copy files
+
+The first step was to copy files into the new hugo directory. This meant placing any url that we wanted to navigate to outside of the blog into the content folder.
+
+  
+![content folder in blog with files](/uploads/screen-shot-2021-05-21-at-4-35-37-pm.png "directory")
+
+From here, this was the easiest way to leave all the pages as they were, without making too many modifications.
+
+### Step 3 Creating a theme
