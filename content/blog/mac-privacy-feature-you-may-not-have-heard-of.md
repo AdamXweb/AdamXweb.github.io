@@ -2,8 +2,7 @@
 author = "Adam Kostarelas"
 date = 2021-05-29T06:08:00Z
 description = "Macbooks with T2 chips have a hidden privacy feature that you may not have heard of."
-draft = true
-image = ""
+image = "/uploads/macprivacy.png"
 keywords = ["discord macbook microphone issues", "zoom call macbook no audio with lid closed", "macbook pro privacy feature"]
 math = false
 slug = "mac-privacy-feature"
@@ -12,6 +11,7 @@ title = "Mac privacy feature you may not have heard of"
 toc = false
 
 +++
+![](/uploads/macprivacy.png)
 
 Many people who use a new Macbook in "[Clamshell mode](https://support.apple.com/en-au/HT201834)" (lid closed, and connected to an external display) may inadvertently be familiar with this privacy feature.
 
@@ -45,6 +45,6 @@ I'm a privacy advocate, and do believe initiatives such as this are a good step 
 
 ### Read more
 
-If you want to find out more about Apple's platform security, you can [download a PDF](The T2 chip offers some non-security features as well, like an image signal processor that enables enhanced tone mapping, controls the ambient sensor, the system management controller (SMC), white balancing to the FaceTime HD camera, Apple video encoder, audio controller, and enables "Hey Siri." ) from their website.
+If you want to find out more about Apple's platform security, you can [download a PDF](The T2 chip offers some non-security features as well, like an image signal processor that enables enhanced tone mapping, controls the ambient sensor, the system management controller (SMC), white balancing to the FaceTime HD camera, Apple video encoder, audio controller, and enables "Hey Siri.") from their website.
 
 As always, feel free to message me on [twitter](https://twitter.com/adamxweb) if you'd like to start a discussion.
