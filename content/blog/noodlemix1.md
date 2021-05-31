@@ -2,8 +2,10 @@
 title: 'Noodle Mix 1: Chapagetti and Shin Ramyun'
 date: 2020-07-12T17:48:23.000+10:00
 slug: noodle-mix-chapagetti-shin-ramyun
-description: I see what it is like to mix Shin Ramyun, a Spicy noodle packet with Chapagetti. Find out how quick and easy you can follow along at home to have a delicious lunch or dinner.
-image: /uploads/noodlemix1.png
+description: I see what it is like to mix Shin Ramyun, a Spicy noodle packet with
+  Chapagetti. Find out how quick and easy you can follow along at home to have a delicious
+  lunch or dinner.
+image: "/uploads/noodlemix1.png"
 keywords:
 - korean noodles
 - blog
@@ -22,7 +24,7 @@ I couldn't get over the simple fact that it's rather easy to mix noodle packets 
 
 Deciding enough is enough, I jumped on the opportunity to make a combination of flavours some may deem strange, but feeling adventurous I grabbed two packets from the pantry and went to work.
 
-My combo of choice; Chapagetti, a black bean style noodle, with Shin Ramyun, a sort of spicy soupy noodle. Both didn't really seem like they should mix on paper, ending up with a soupy spicy deep flavour may not be the way to go...
+My combo of choice; Chapagetti, a black bean style noodle, with [Shin Ramyun](https://amzn.to/3yYm97N "Amazon link to Noodles"), a sort of spicy soupy noodle. Both didn't really seem like they should mix on paper, ending up with a soupy spicy deep flavour may not be the way to go...
 
 These are step-by-step directions of how I created my first mix.
 
@@ -93,8 +95,10 @@ After mixing you'll get a solid golden brown colour all round. Keep mixing from 
 
 ![Empty bowl of noodle mixture](/uploads/dsf2159.JPG)
 
-Reflecting on the flavours, you get the spicy from the Shin Ramyun, with the earthy flavour from the Chapagetti that I really feel gives a good kick.
+Reflecting on the flavours, you get the spicy from the [Shin Ramyun](https://amzn.to/3yYm97N "Amazon link for noodles"), with the earthy flavour from the Chapagetti that I really feel gives a good kick.
 
 Chapagetti X Shin Ramyun gets a solid re-visit in my book.
 
 8/10
+
+(I have provided an Amazon link for the Shin Ramyun noodles. You can support my blog by clicking on it before purchasing.)
