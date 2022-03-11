@@ -15,7 +15,7 @@ toc: false
 
 It's only fair that I introduce myself. I'm Adam, from Melbourne in Australia!
 You'll find me working on a few tech related things, or building solutions for local businesses.
-As of July 2020 I'm working on [Topre.design](https://topre.design) with Daniel Augoustakis to provide brand solutions at a full service capacity.
+As of July 2020 I'm working on [Topre.design](https://design.topre.com.au) with Daniel Augoustakis to provide brand solutions.
 
 There are numerous smaller projects that i'm tackling during this COVID period also that I may post about.
 The main areas which i'll be posting are:
