@@ -26,9 +26,7 @@ The main areas which i'll be posting are:
 - General.
 
 ## My socials
-{{< instagram B_ZIYE7Abby hidecaption >}}
-
-If you're looking for constant content by me, I'm most active on Instagram.
+If you're looking for constant content by me, I'm most active on [Instagram](https://instagram.com/adamxweb)
 You can also find the source code for most of my projects on my [Github](https://github.com/AdamXweb)
 
 P.S. Check back in Dark mode to see how awesome CSS is.
