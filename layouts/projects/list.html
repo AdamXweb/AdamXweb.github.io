@@ -1,0 +1,42 @@
+{{ define "styles" }}
+{{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/post.scss" "dest" "css/post.css") }}
+{{ end }}
+{{ define "main" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+
+<div class="flex-wrapper">
+    <div class="post__container">
+      <div class="post">
+        <header class="post__header">
+          <h1 id="post__title">{{.Title}}</h1>
+          {{ if or .Params.date }}
+          <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
+          {{ end }}
+        </header>
+        <article class="post__content">
+            <h2>{{.Params.h2}}</h2>
+          <div class="row w-100 ls">
+              {{range .Params.Projects}}
+            <div class="pst">
+                <a class="overlay" href="{{.URL}}"></a>
+                <div class="post__header pjh">
+                    <h2 class="post__title pj">
+                    {{.name}}                    
+                </h2>
+                </div>
+                 <img src="{{.img}}" alt=""
+                  class="portimg">
+            </div>
+            {{end}}
+        </div>
+        </article>
+        {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
+        <footer class="post__footer">
+          {{ partial "social-icons.html" .}}
+          <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+        </footer>
+      </div>
+    </div>
+ </div>  
+
+{{end}}
