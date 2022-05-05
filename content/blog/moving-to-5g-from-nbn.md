@@ -1,6 +1,6 @@
 +++
 author = "Adam Kostarelas"
-date = 2022-05-05T20:08:00Z
+date = 2022-05-05T04:08:00Z
 description = "My initial experience moving from nbn to 5G"
 image = "/uploads/5g-nbn-switch.png"
 keywords = ["discord macbook microphone issues", "zoom call macbook no audio with lid closed", "macbook pro privacy feature"]
