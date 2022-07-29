@@ -1,55 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tech on Adam Kostarelas</title>
-    <link>https://adam.kostarelas.com/tags/tech/</link>
-    <description>Recent content in tech on Adam Kostarelas</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© {year} Adam Kostarelas</copyright>
-    <lastBuildDate>Thu, 05 May 2022 04:08:00 +0000</lastBuildDate><atom:link href="https://adam.kostarelas.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Moving from NBN to 5G</title>
-      <link>https://adam.kostarelas.com/blog/from-nbn-to-5g/</link>
-      <pubDate>Thu, 05 May 2022 04:08:00 +0000</pubDate>
-      
-      <guid>https://adam.kostarelas.com/blog/from-nbn-to-5g/</guid>
-      <description>I&amp;rsquo;ve been waiting a long time for NBN. Back to the original announcement, I remember the first time the address checker provided a date of installation. Delay after delay the day arrived, I&amp;rsquo;d have regular access to fast broadband.
-Since then, so many innovations have changed the way we use technology on a daily basis. Having gone through a change in OS I was quickly thrust into the world of linux, homelabs and self hosting.</description>
-    </item>
-    
-    <item>
-      <title>Mac privacy feature you may not have heard of</title>
-      <link>https://adam.kostarelas.com/blog/mac-privacy-feature/</link>
-      <pubDate>Sat, 29 May 2021 06:08:00 +0000</pubDate>
-      
-      <guid>https://adam.kostarelas.com/blog/mac-privacy-feature/</guid>
-      <description>Many people who use a new Macbook in &amp;ldquo;Clamshell mode&amp;rdquo; (lid closed, and connected to an external display) may inadvertently be familiar with this privacy feature.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on Adam Kostarelas</title><link>https://adam.kostarelas.com/tags/tech/</link><description>Recent content in tech on Adam Kostarelas</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© {year} Adam Kostarelas</copyright><lastBuildDate>Thu, 05 May 2022 04:08:00 +0000</lastBuildDate><atom:link href="https://adam.kostarelas.com/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving from NBN to 5G</title><link>https://adam.kostarelas.com/blog/from-nbn-to-5g/</link><pubDate>Thu, 05 May 2022 04:08:00 +0000</pubDate><guid>https://adam.kostarelas.com/blog/from-nbn-to-5g/</guid><description>I&amp;rsquo;ve been waiting a long time for NBN. Back to the original announcement, I remember the first time the address checker provided a date of installation. Delay after delay the day arrived, I&amp;rsquo;d have regular access to fast broadband.
+Since then, so many innovations have changed the way we use technology on a daily basis. Having gone through a change in OS I was quickly thrust into the world of linux, homelabs and self hosting.</description></item><item><title>Mac privacy feature you may not have heard of</title><link>https://adam.kostarelas.com/blog/mac-privacy-feature/</link><pubDate>Sat, 29 May 2021 06:08:00 +0000</pubDate><guid>https://adam.kostarelas.com/blog/mac-privacy-feature/</guid><description>Many people who use a new Macbook in &amp;ldquo;Clamshell mode&amp;rdquo; (lid closed, and connected to an external display) may inadvertently be familiar with this privacy feature.
 This innovative feature occurs when you close your Macbook&amp;rsquo;s lid. The microphone is then disconnected at a hardware level.
 It is limited to Apple devices with the T2 chip:
-All 13-inch MacBook Pro and MacBook Air notebooks with the T2 chip, all MacBook notebooks with a T2 chip from 2019 or later, and Mac notebooks with Apple silicon, this disconnect is implemented in hardware alone.</description>
-    </item>
-    
-    <item>
-      <title>Easy Mac Quality of Life Improvements with Apps</title>
-      <link>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</link>
-      <pubDate>Sun, 03 Jan 2021 13:00:00 +0000</pubDate>
-      
-      <guid>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</guid>
-      <description>It&amp;rsquo;s easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here&amp;rsquo;s a few suggestions.
-Better Touch Tool Drag windows around effortlessly Instead of clicking and dragging the Instead of clicking and dragging the title bar to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.</description>
-    </item>
-    
-    <item>
-      <title>Speeding up e-mails and ditching the MX server</title>
-      <link>https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder/</link>
-      <pubDate>Thu, 30 Jul 2020 04:00:00 +0000</pubDate>
-      
-      <guid>https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder/</guid>
-      <description>I&amp;rsquo;ve had enough with shared hosting. For years our domain, Kostarelas.com has been on shared hosting provided by Godaddy.
+All 13-inch MacBook Pro and MacBook Air notebooks with the T2 chip, all MacBook notebooks with a T2 chip from 2019 or later, and Mac notebooks with Apple silicon, this disconnect is implemented in hardware alone.</description></item><item><title>Easy Mac Quality of Life Improvements with Apps</title><link>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</link><pubDate>Sun, 03 Jan 2021 13:00:00 +0000</pubDate><guid>https://adam.kostarelas.com/blog/easy-mac-quality-of-life-improvements/</guid><description>It&amp;rsquo;s easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here&amp;rsquo;s a few suggestions.
+Better Touch Tool Drag windows around effortlessly Instead of clicking and dragging the Instead of clicking and dragging the title bar to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.</description></item><item><title>Speeding up e-mails and ditching the MX server</title><link>https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder/</link><pubDate>Thu, 30 Jul 2020 04:00:00 +0000</pubDate><guid>https://adam.kostarelas.com/blog/mx-server-to-gmail-email-forwarder/</guid><description>I&amp;rsquo;ve had enough with shared hosting. For years our domain, Kostarelas.com has been on shared hosting provided by Godaddy.
 Previously, I was too young to take control of the administration of the domain, but today was the last straw, thanks to two step verification.
-I was setting up a service on a new device that of course asked for a 2 step verification code. Usually with platforms like Gmail, Outlook and fast SMTP servers, you&amp;rsquo;d get a push notification instantly.</description>
-    </item>
-    
-  </channel>
-</rss>
+I was setting up a service on a new device that of course asked for a 2 step verification code. Usually with platforms like Gmail, Outlook and fast SMTP servers, you&amp;rsquo;d get a push notification instantly.</description></item></channel></rss>
