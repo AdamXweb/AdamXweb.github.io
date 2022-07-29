@@ -1,0 +1,20 @@
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+<div class="post-list__container">
+<div class="row">
+    {{ range first 3 .Site.RegularPages }}
+
+      <div class="pst">
+         <a class="overlay" href="{{.RelPermalink}}"></a>
+         <div class="post__header">
+          <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
+          <h2 class="post__title">
+          {{ .Title }}
+          </h2>
+        </div>
+        <img src="{{ partial "image.html" .}}" alt="" sizes="50vw" srcset="{{ partial "image.html" .}} 4500w"
+          class="pstimg">
+      </div>
+
+    {{ end }}
+  </div>
+</div>

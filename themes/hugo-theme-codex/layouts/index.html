@@ -14,10 +14,11 @@
     <h2>
       {{ .Params.subheading }}
     </h2>
-    <!-- Replace MEEEEE -->
-
     {{ partial "social-icons.html" .}}
+
   </div>
 </div>
+<h2>Recent Posts</h2>
+{{ partial "blog-lead.html" .}}
 
 {{ end }}
