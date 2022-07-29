@@ -33,4 +33,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: master
           PUBLISH_DIR: ./public
-          keep_files: false
+          cname: adam.kostarelas.com
