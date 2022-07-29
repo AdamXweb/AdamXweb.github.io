@@ -4,7 +4,7 @@
 .tags__list {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 50px;
+  padding: 0;
   flex-shrink: 0;
 
   @media screen and (max-width: $medium - 1) {
@@ -54,15 +54,4 @@
 .post-list__container {
   display: flex;
   justify-content: space-between;
-}
-footer {
-  text-align: center;
-  padding: 0 1.5rem;
-  background: #ffffff;
-  margin-top: 6rem;
-  p {
-    margin-top: 1rem; // reduce margin top due to social icons' padding
-    color: $grey;
-    font-size: 0.65rem;
-  }
 }

@@ -1,3 +1,4 @@
+@import "main";
 :root {
     --dark: #060910;
     --mild: #31386B;
@@ -9,9 +10,20 @@
     --fancy: #9013fe;
     --post: #0a0d27;
 }
-
+.post__details{
+    display:flex;
+    flex-direction: row;
+}
 .tags__list {
-    padding: 4rem 1.5rem 1rem;
+    padding: 0;
+    margin-left:auto
+}
+article{
+    .tags__list{
+        margin-left: 0;
+        margin-top:2.5rem;
+        justify-content: flex-start;
+    }
 }
 .post-list__container {
     padding: 2rem 1.5rem 1rem;
@@ -526,3 +538,15 @@ display: flex;
         margin-left:0;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 0 1.5rem;
+    background: #ffffff;
+    margin-top: 6rem;
+    p {
+      margin-top: 1rem; // reduce margin top due to social icons' padding
+      color: $grey;
+      font-size: 0.65rem;
+    }
+  }

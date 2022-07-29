@@ -64,6 +64,7 @@ $tocBreakpoint: 1024px;
 .post__date {
   color: $grey;
   font-size: 0.8rem;
+  padding: 0.5rem 0;
 }
 
 .post__footer {
@@ -107,7 +108,7 @@ $tocBreakpoint: 1024px;
 
 .tags__list {
   padding-right: 1.5rem;
-  margin: 1.5rem 0 0;
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: flex-end;
