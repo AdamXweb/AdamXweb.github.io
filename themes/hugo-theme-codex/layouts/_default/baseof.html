@@ -32,7 +32,7 @@
   {{ partial "seo-schema.html" .}}
 
   {{- if not .Site.IsServer -}}
-  {{ template "_internal/google_analytics_async.html" . }}
+  <script defer data-domain="adam.kostarelas.com" src="https://plausible.io/js/plausible.js"></script>
   {{- end -}}
 </head>
 
