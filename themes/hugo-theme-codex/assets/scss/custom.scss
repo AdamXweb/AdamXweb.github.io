@@ -29,9 +29,15 @@ article{
     padding: 2rem 1.5rem 1rem;
 }
 
-.post__container {
+.blog .post__container {
     padding: 4rem 1.5rem 1rem;
+}
+.list .post__container{
+    padding: 0 1.5rem 1rem;
 
+}
+.open__container {
+    padding: 0 1.5rem 1rem;
 }
 .text-center{
     text-align: center;
@@ -549,4 +555,12 @@ footer {
       color: $grey;
       font-size: 0.65rem;
     }
+  }
+  .stats{
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto;
+  }
+  .post__header{
+    padding: 1rem;
   }

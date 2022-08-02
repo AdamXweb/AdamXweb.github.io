@@ -3,16 +3,15 @@
 {{ end }}
 {{ define "main" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
-
-<div class="flex-wrapper">
-    <div class="post__container">
+<header class="post__header">
+  <h1>{{.Title}}</h1>
+  {{ if or .Params.date }}
+  <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
+  {{ end }}
+</header>
+<div class="post__container">
+      
       <div class="post">
-        <header class="post__header">
-          <h1 id="post__title">{{.Title}}</h1>
-          {{ if or .Params.date }}
-          <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
-          {{ end }}
-        </header>
         <article class="post__content">
             <h2>{{.Params.h2}}</h2>
           <div class="row w-100 ls">
@@ -31,12 +30,8 @@
         </div>
         </article>
         {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
-        <footer class="post__footer">
-          {{ partial "social-icons.html" .}}
-          <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
-        </footer>
+    
       </div>
     </div>
- </div>  
 
 {{end}}
