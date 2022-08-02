@@ -1,0 +1,22 @@
+{{define "main"}}
+<header class="post__header">
+    <h1 id="post__title">{{.Title}}</h1>
+  </header>
+    <div class="open__container">
+        <div class="post">
+        
+            <p>{{.Description}}</p>
+        </br>
+        <div id="chart" data-hostname="adam.kostarelas.com" style="aspect-ratio: 2/1" class="stats">
+            <p style="margin: 0">Loading chart...</p>
+          </div>
+          <script
+            async
+            data-chart-selectors="#chart"
+            src="https://scripts.simpleanalyticscdn.com/embed.js"
+          ></script>
+          <a href="https://referral.simpleanalytics.com/adamxweb">Referral for simple analytics</a>
+        </div>
+        <p>{{.Params.Outlead}}</p>
+    </div>
+{{end}}
