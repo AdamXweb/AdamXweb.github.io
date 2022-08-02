@@ -33,7 +33,7 @@
 
   {{- if not .Site.IsServer -}}
   <script async defer src="https://a.adam.kostarelas.com/latest.js"></script>
-  <noscript><img src="https://a.adam.kostarelas.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+  <noscript><img src="https://a.adam.kostarelas.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
   {{- end -}}
 </head>
 {{ if eq .Kind "home" -}}
@@ -57,9 +57,6 @@
 
   {{ block "footer" . }} {{ end }}
 
-  {{ $script := resources.Get "js/index.js" | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity | safeHTMLAttr }}"
-    crossorigin="anonymous"></script>
   {{ block "scripts" . }} {{ end }}
 </body>
 
