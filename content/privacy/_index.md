@@ -13,6 +13,7 @@ To understand what services you are interacting with, please see the following.
 **CDN**: Cloudflare\
 **Hosting**: [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)\
 **Analytics**: [Simple Analytics](https://docs.simpleanalytics.com/what-we-collect?ref=adam.kostarelas.com), served through `a.adam.kostarelas.com`
+**Comments**: [Giscus](https://github.com/giscus/giscus/blob/main/PRIVACY-POLICY.md). Utilises GitHub Discussions
 
 Analytics are for general use to understand popularity of topics on my blog. You can read more about my data and my [quest to be as open as possible](/open)
 
