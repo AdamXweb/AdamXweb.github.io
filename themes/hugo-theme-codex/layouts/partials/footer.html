@@ -1,6 +1,6 @@
 {{ define "footer"}}
 <footer class="post__footer">
    {{if .IsHome}}{{else}} {{ partial "social-icons.html" .}}{{end}}
-    <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+    <p>{{ replace .Site.Copyright "{year}" now.Year }} | <a href="/privacy">Privacy</a></p>
   </footer>
 {{end}}

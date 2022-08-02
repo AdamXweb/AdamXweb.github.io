@@ -1,0 +1,19 @@
+{{ define "styles" }}
+{{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/post.scss" "dest" "css/post.css") }}
+{{ end }}
+{{define "main"}}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+
+  <header class="post__header">
+    <h1>{{.Title}}</h1>
+    {{ if or .Params.date }}
+    <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
+    {{ end }}
+  </header>
+    <div class="open__container">
+        <div class="post">
+          <p>{{.Description}}</p>
+       {{.Content}}
+       </div>
+    </div>
+{{end}}
