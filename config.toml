@@ -64,3 +64,12 @@ copyright = "© {year} Adam Kostarelas"
   url = "/projects"
   weight = 3
 
+[[menu.footer]]
+  url = "/privacy"
+  name = "Privacy"
+  weight = 1
+
+[[menu.footer]]
+  url = "/open"
+  name = "Open"
+  weight = 2
