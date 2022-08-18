@@ -22,7 +22,7 @@
           {{ partial "tags.html" .}}           <small class="post__readtime">Reading time: {{ .ReadingTime }} min</small>
 
         </div>
-        <img src="{{ partial "image.html" .}}" alt="" sizes="50vw" srcset="{{ partial "image.html" .}} 4500w"
+        <img src="{{ partial "image.html" .}}" alt="{{.Description}}" sizes="50vw" srcset="{{ partial "image.html" .}} 4500w"
           class="pstimg">
       </div>
 
