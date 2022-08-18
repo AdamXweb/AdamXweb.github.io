@@ -100,8 +100,9 @@ li {
     color: black;
     text-decoration: none;
     padding-right: .5rem;
-    width: 25%;
-    margin-right: 2em;
+    width: 28.1%;
+    min-width:fit-content;
+    margin: 1em 0;
 }
 .ht{
     font-size:1.2vw !important;
@@ -113,7 +114,7 @@ a:hover {
     width:100%;
 }
 .w-80 {
-    width: 65%;
+    width: 80%;
     margin-left:auto;
     margin-right: auto;
 }
@@ -217,9 +218,13 @@ a:hover {
     box-decoration-break: clone;
 }
 .pstimg{
-    margin-top:1em;
 margin-left:auto;
 padding-left:1em;
+min-height: auto;
+padding-bottom: 1.2em;
+padding: 1.2em 1em 1.2em 0;
+align-self: center;      
+width:40%
 }
 p {
     color: var(--grey);
@@ -345,7 +350,10 @@ display: flex;
     }
 }
 
-
+.post__header{
+    padding: 1rem;
+    width:60%;
+  }
 @media (prefers-color-scheme: dark) {
 
     body,
@@ -515,7 +523,7 @@ display: flex;
 
     .n {
         width: 100%;
-
+        margin-right: 0;
     }
 
     .card {
@@ -523,10 +531,11 @@ display: flex;
     }
     .pstimg {
         margin-top: 1em;
-        width: 80%;
-        padding-left: 0px;
+        width: 100%;
         display: block;
         margin-right:auto;
+        margin-left:auto;
+        padding: 1.2em 1em;
     }
     .pst{
         display:block;
@@ -543,6 +552,10 @@ display: flex;
     .top{
         margin-left:0;
     }
+    .post__header{
+        width:100%;
+    }
+
 }
 
 footer {
@@ -561,6 +574,9 @@ footer {
     max-width: 55rem;
     margin: 0 auto;
   }
-  .post__header{
-    padding: 1rem;
+
+  .post__readtime{
+    color: $grey;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
   }
