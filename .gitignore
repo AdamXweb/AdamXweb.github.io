@@ -4,4 +4,4 @@ bin
 .DS_Store
 package-lock.json
 .hugo_build.lock
-public
+static/.DS_Store
