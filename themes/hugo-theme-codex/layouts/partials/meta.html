@@ -27,11 +27,10 @@
 {{ end }}
  <!-- Twitter -->
  {{ if isset .Site.Params "twitter" }}
- <meta name="twitter:card" content="summary" />
+ <meta name="twitter:card" content="summary_large_image" />
  <meta name="twitter:title" content="{{ .Title }}" />
  <meta name="twitter:description"
      content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}" />
- <meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
  <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
  {{ end }}
 
