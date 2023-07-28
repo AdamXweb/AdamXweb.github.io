@@ -1,0 +1,193 @@
+{{define "main"}}
+<header class="post__header">
+    <h1 id="post__title">{{.Title}}</h1>
+  </header>
+    <div class="open__container">
+        <div class="post">
+            <p>{{.Description}}</p>
+        <p>{{.Params.Outlead}}</p>
+    </div>
+
+    <style>
+      .clock {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        margin-right: 50px;
+      }
+      .points {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .point {
+        width: 1px;
+        height: 12px;
+        display: block;
+        border: 0.2mm solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 0.8mm;
+        position: absolute;
+        top: calc(50% - 6px);
+        left: calc(50% - 0.3mm);
+      }
+      .point.big {
+        height: 14px;
+        width: 1px;
+        border: 0.3mm solid rgba(255, 255, 255, 0.8);
+        background: white;
+        top: calc(50% - 7px);
+        left: calc(50% - 0.2mm);
+      }
+      .point.big .text {
+        color: white;
+        position: absolute;
+        top: 100%;
+        font-size: 30px;
+        font-weight: 600;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        overflow: hidden;
+        left: calc(50% - 20px);
+      }
+      .seconds,
+      .minutes,
+      .hours {
+        width: 2px;
+        height: 155px;
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 1px);
+        border-radius: 0.6mm;
+        transform-origin: 1px 0;
+      }
+      .seconds {
+        height: 182px;
+        transform-origin: 1px 26px;
+        top: calc(50% - 26px);
+        background: var(--fancy);
+        transform: rotate(30deg);
+      }
+      .minutes,
+      .hours {
+        background: white;
+      }
+      .hours {
+        height: 110px;
+        transform: rotate(-30deg);
+      }
+      .minutes::before,
+      .hours::before {
+        position: absolute;
+        content: "";
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 12px;
+        height: calc(100% - 22px);
+        background: white;
+        border-radius: 2mm;
+      }
+      .pivot,
+      .pivot::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        background: black;
+        border: 3px solid white;
+        border-radius: 50%;
+      }
+      .pivot::before {
+        content: "";
+        border: 3px solid var(--fancy);
+        width: 5px;
+        height: 5px;
+      }
+    
+    </style>   
+
+<div class="row">
+    <div class="col-6">
+        <div class="clock">
+          <div class="points"></div>
+          <div class="minutes"></div>
+          <div class="seconds"></div>
+          <div class="hours"></div>
+          <div class="pivot"></div>
+        </div>
+    </div>
+    <div class="col-6">
+        {{range .Params.Links}}
+        <div class="pst">
+            <a class="overlay" href="{{.URL}}"></a>
+            <div class="post__header pjh">
+                <h2 class="post__title pj">
+                {{.name}}                    
+            </h2>
+            </div>
+             <img src="{{.img}}" alt=""
+              class="portimg">
+        </div>
+        {{ end }}
+    </div>
+</div>
+    <script>
+      let points = document.querySelector(".points");
+      j = 12;
+      for (var i = 0; i < 360; i += 6) {
+        let point = document.createElement("span");
+        point.className = "point";
+        if ((i / 6) % 5 == 0) {
+          point.className = "point big";
+          let text = document.createElement("span");
+          text.className = "text";
+          text.innerHTML = j;
+          text.style.transform = `rotate(${-i}deg) translateY(2px)`;
+          if (j == 12) {
+            j = 0;
+          }
+          j = j + 1;
+          point.appendChild(text);
+        }
+        point.style.transform = `rotate(${i}deg) translateY(-150px)`;
+        points.appendChild(point);
+      }
+
+      const interval = setInterval(() => {
+        var date = new Date();
+        let secondsPoint = document.querySelector(".seconds");
+        let minutesPoint = document.querySelector(".minutes");
+        let hoursPoint = document.querySelector(".hours");
+
+        let secPosition = date.getSeconds() * 6;
+        let minPosition = date.getMinutes() * 6;
+        let hourPosition = date.getHours() * 30;
+
+        if (secPosition == 0) {
+          secondsPoint.style.transition = "none";
+        } else {
+          secondsPoint.style.transition = "0.25s";
+        }
+        if (minPosition == 0) {
+          minutesPoint.style.transition = "none";
+        } else {
+          minutesPoint.style.transition = "0.25s";
+        }
+        if (hourPosition == 0) {
+          hoursPoint.style.transition = "none";
+        } else {
+          hoursPoint.style.transition = "0.25s";
+        }
+
+        secondsPoint.style.transform = `rotate(${secPosition - 180}deg)`;
+        minutesPoint.style.transform = `rotate(${minPosition - 180}deg)`;
+        hoursPoint.style.transform = `rotate(${hourPosition - 180}deg)`;
+      });
+    </script>
+    <small><a href="https://snippetsdevelop.github.io/pages/stand_by_mode.html">Source for clock code</a></small>
+{{end}}
