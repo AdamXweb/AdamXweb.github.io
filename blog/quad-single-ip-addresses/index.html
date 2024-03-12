@@ -1,0 +1,158 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=language content="en"><title>Quad single IP addresses |
+Adam Kostarelas</title><meta itemprop=name content="Quad single IP addresses |
+      Adam Kostarelas"><meta name=description content="Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024."><meta property="og:description" content="Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024."><meta itemprop=description content="Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024."><meta name=keywords content="Who owns quad single ip addresses ,quad ip address ,quad single ip addresses ,blog"><meta name=coverage content="Worldwide"><meta name=distribution content="Global"><meta name=HandheldFriendly content="True"><meta itemprop=image content="https://adam.kostarelas.com/uploads/quadips.png"><meta property="og:image" content="https://adam.kostarelas.com/uploads/quadips.png"><meta name=twitter:image content="https://adam.kostarelas.com/uploads/quadips.png"><meta name=twitter:image:src content="https://adam.kostarelas.com/uploads/quadips.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Quad single IP addresses"><meta name=twitter:description content="Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024."><meta name=twitter:creator content="@adamxweb"><link rel=sitemap type=application/xml title=Sitemap href=https://adam.kostarelas.com/sitemap.xml><meta name=robots content="index,follow"><meta name=googlebot content="index,follow"><a rel=me href=https://aus.social/@adamxweb></a>
+<link rel=canonical href=https://adam.kostarelas.com><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css><script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js></script>
+<link rel=icon href=/uploads/favicon.png><link rel=stylesheet href=/css/post.min.f22d6fb7f447c3cb16f93760c0cae988897f0d6864b5eb2942f89ee741c7b82d.css integrity="sha256-8i1vt/RHw8sW+TdgwMrpiIl/DWhktespQvie50HHuC0="><link rel=stylesheet href=/css/custom.min.518fedc78f47d873147c0508abc219ae0c52e11389120ce8ad4ffdf28785b7d2.css integrity="sha256-UY/tx49H2HMUfAUIq8IZrgxS4ROJEgzorU/98oeFt9I="><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/adam.kostarelas.com\/"},"articleSection":"blog","name":"Quad single IP addresses","headline":"Quad single IP addresses","description":"Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024.","inLanguage":"en-US","author":"Adam Kostarelas","creator":"Adam Kostarelas","publisher":"Adam Kostarelas","accountablePerson":"Adam Kostarelas","copyrightHolder":"Adam Kostarelas","copyrightYear":"2024 ","datePublished":"2024-03-01 17:20:23 \u002b1000 \u002b1000","dateModified":"2024-03-01 17:20:23 \u002b1000 \u002b1000","url":"https:\/\/adam.kostarelas.com\/blog\/quad-single-ip-addresses\/","wordCount":"1272","keywords":["Who owns quad single ip addresses","quad ip address","quad single ip addresses","blog","Blog"]}</script><script async defer src=https://a.adam.kostarelas.com/latest.js></script><noscript><img src="https://a.adam.kostarelas.com/noscript.gif?collect-dnt=true" alt referrerpolicy=no-referrer-when-downgrade></noscript></head><body class="blog single"><nav role=navigation class=top><a href=/ class="nav-link amain">Home</a>
+<a class="nav-link active" href=/blog class="nav-link amain">Blog</a>
+<a href=/projects class="nav-link amain">Projects</a></nav><main><div class=flex-wrapper><div class=post__container><div class=post><header class=post__header><h1 id=post__title>Quad single IP addresses</h1><div class=post__details><time datetime="2024-03-01 17:20:23 +1000 +1000" class=post__date>Mar 1 2024</time><ul class=tags__list><li class="tag__item inner"><a class=tag__link href=https://adam.kostarelas.com/tags/tech/>tech</a></li></ul></div></header><article class=post__content><p>Quad single IP addresses - think 1.1.1.1, &mldr; 8.8.8.8, 9.9.9.9
+Who owns them, and what are they used for?</p><p>Anyone who has tinkered around with DNS settings are familiar with a few like 1.1.1.1, 8.8.8.8 and 9.9.9.9 (Cloudflare, Google and Quad9).
+I&rsquo;ll be including links and readouts of whois if you&rsquo;re interested to find out more.</p><p>It is interesting to learn about IP addressing, and having recently completed FIT5037 at Monash, understanding <a href=https://en.wikipedia.org/wiki/Border_Gateway_Protocol>BGP</a> (Border Gateway Protocol) routing with <a href=https://www.iana.org/assignments/as-numbers/as-numbers.xhtml%C3%9F>ASN (Autonomous system numbers)</a></p><p>Spoiler, if you try to visit any of the below IPs, Cloudflare is the only one that will provide a webpage at <a href=https://1.1.1.1>1.1.1.1</a></p><h2 id=1111>1.1.1.1<a class=anchor href=#1111>#</a></h2><h4 id=ip-net>IP Net:</h4><pre><code>1.1.1.0/24 -&gt; 1.1.1.0 - 1.1.1.255
+</code></pre><h4 id=registered-to-apnichttpswwwapnicnet>Registered to <a href=https://www.apnic.net/>APNIC</a></h4><p>Run by CloudFlare as a DNS resolver</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 1.1.1.1 │
+╰────────────────────────╯
+
+ 1.1.1.1 ┌PTR one.one.one.one
+         ├ASN 13335 (CLOUDFLARENET, US)
+         ├RNK #78  TOP 100 AS
+         ├ORG APNIC and Cloudflare DNS Resolver project
+         ├NET 1.1.1.0/24 (APNIC-LABS)
+         ├ABU helpdesk@apnic.net
+         ├ROA ✓ VALID (1 ROA found)
+         ├TYP  Anycast IP   Hosting/DC
+         ├GEO Hamburg, Hamburg (DE)
+         ├POR Open ports: 53, 80, 443, 2083, 2086, 2087, 8080, 8443, 8880
+         └REP ✓  KNOWN GOOD as &quot;Cloudflare Public DNS&quot;
+</code></pre><p>Ports that are open suggest 53 for DNS, 80 for HTTP, 443 for HTTPS, 2083 for radsec (Authorisation protocol),</p><p>Links:</p><ul><li><a href=https://bgp.tools/prefix/1.1.1.0/24>BGP.tools for 1.1.1.1</a></li><li><a href=https://en.wikipedia.org/wiki/1.1.1.1>Wikipedia for 1.1.1.1</a></li><li><a href=https://ipinfo.io/1.1.1.1>ipinfo for 1.1.1.1</a></li><li><a href=https://blog.cloudflare.com/fixing-reachability-to-1-1-1-1-globally/>reachability issues of 1.1.1.1</a></li></ul><h2 id=2222>2.2.2.2<a class=anchor href=#2222>#</a></h2><h4 id=ip-net-1>IP Net:</h4><pre><code>2.2.0.0/16 -&gt; 2.2.0.0 - 2.15.255.255
+</code></pre><h4 id=assigned-to-orangehttpsenwikipediaorgwikiorange_sa>Assigned to: <a href=https://en.wikipedia.org/wiki/Orange_S.A.>Orange</a>.</h4><p>Assigned to a french telecom, Orange.
+Not used for any obvious public facing services.</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 2.2.2.2 │
+╰────────────────────────╯
+
+ 2.2.2.2 ┌PTR -
+         ├ASN 3215 (France Telecom - Orange, FR)
+         ├RNK #204  TOP 500 AS
+         ├ORG AS3215
+         ├NET 2.2.0.0/16 (FR-TELECOM-20100712)
+         ├ABU gestionip.ft@orange.com
+         ├ROA ✓ VALID (1 ROA found)
+         ├GEO San Jose, California (US)
+         ├POR Open ports: 161
+         └REP ✓ NONE
+</code></pre><p>The port active on 2.2.2.2 suggests it could be SNMP (Simple Network Management Protocol) which typically is used to communicate logging and management information.</p><ul><li><a href=https://bgp.tools/prefix/2.2.0.0/16>BGP.tools for 2.2.2.2</a></li><li><a href=https://ipinfo.io/2.2.2.2>ipinfo for 2.2.2.2</a></li></ul><h2 id=3333>3.3.3.3<a class=anchor href=#3333>#</a></h2><h4 id=ip-net-2>IP Net:</h4><pre><code>3.3.3.0/24 -&gt; 3.3.3.0 - 3.3.3.255
+</code></pre><h4 id=registered-by-amazon>Registered by Amazon.</h4><p>Looks like the IP range is reserved and possibly used by <a href=https://aws.amazon.com/ec2>AWS</a> for EC2 instances. <a href=https://en.wikipedia.org/wiki/Amazon_Web_Services>AWS is a subsidiary of Amazon.</a>
+RPKI suggests it could be for US East cost AWS.</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 3.3.3.3 │
+╰────────────────────────╯
+
+ 3.3.3.3 ┌PTR -
+         ├ASN 14618 (AMAZON-AES, US)
+         ├RNK #7169
+         ├ORG Amazon Technologies Inc.
+         ├NET 3.3.3.0/24 (AT-88-Z)
+         ├ABU abuse@amazonaws.com
+         ├ROA ✓ VALID (4 ROAs found)
+         ├TYP  Hosting/DC
+         ├GEO Ashburn, Virginia (US)
+         └REP ✓ NONE
+</code></pre><ul><li><a href=https://bgp.tools/prefix/3.3.3.0/24>BGP.tools for 3.3.3.3</a></li><li><a href=https://ipinfo.io/3.3.3.3>ipinfo for 3.3.3.3</a></li></ul><h2 id=4444>4.4.4.4<a class=anchor href=#4444>#</a></h2><h4 id=ip-net-3>IP Net:</h4><pre><code>4.0.0.0/9 -&gt; 4.0.0.0 - 4.127.255.255
+</code></pre><p>Registered to Level 3, which has rebranded to <a href=https://www.lumen.com>Lumen</a>.</p><p><a href=https://en.wikipedia.org/wiki/Lumen_Technologies>They are a communications provider</a>.
+This is one of the largest ranges which includes a theoretical 8388606 hosts!</p><p>4.4.4.4 doesn&rsquo;t look like it is reserved for any public facing services from Lumen, but may be assigned to one of their clients.</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 4.4.4.4 │
+╰────────────────────────╯
+
+ 4.4.4.4 ┌PTR -
+         ├ASN 3356 (LEVEL3, US)
+         ├RNK #1  TOP 10 AS
+         ├ORG Level 3 Parent, LLC
+         ├NET 4.0.0.0/9 (LVLT-ORG-4-8)
+         ├ABU abuse@level3.com
+         ├ROA ✓ UNKNOWN (no ROAs found)
+         ├TYP  Proxy host
+         ├GEO Honolulu, Hawaii (US)
+         └REP ✓ NONE
+</code></pre><ul><li><a href=https://bgp.tools/prefix/4.0.0.0/9>BGP.tools for 4.4.4.4</a></li><li><a href=https://ipinfo.io/4.4.4.4>ipinfo for 4.4.4.4</a></li></ul><h2 id=5555>5.5.5.5<a class=anchor href=#5555>#</a></h2><h4 id=ip-net-4>IP Net:</h4><pre><code>5.4.0.0/14 -&gt;  5.4.0.0 - 5.7.255.255
+</code></pre><p>Allocated to <a href=https://www.telefonica.de>Telefonica Germany</a>, <a href=https://en.wikipedia.org/wiki/Telef%C3%B3nica_Germany>a German telecommunications provider</a>.</p><p>Looks like the 5.5.5.5 IP is reserved for private use, with no obvious public services.</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 5.5.5.5 │
+╰────────────────────────╯
+
+ 5.5.5.5 ┌PTR dynamic-005-005-005-005.5.5.pool.telefonica.de
+         ├ASN 6805 (TDDE-ASN1, DE)
+         ├RNK #1917
+         ├ORG TDDE-ASN1
+         ├NET 5.4.0.0/14 (DE-MEDIAWAYS-20120425)
+         ├ABU abuse.de@telefonica.com
+         ├ROA ✓ VALID (1 ROA found)
+         ├GEO Frankfurt am Main, Hesse (DE)
+         └REP ✓ NONE
+</code></pre><ul><li><a href=https://bgp.tools/prefix/5.4.0.0/14>BGP.tools for 5.5.5.5</a></li><li><a href=https://ipinfo.io/5.5.5.5>ipinfo for 5.5.5.5</a></li></ul><h2 id=6666>6.6.6.6<a class=anchor href=#6666>#</a></h2><h4 id=ip-net-5>IP Net:</h4><pre><code>6.0.0.0/8 -&gt; 6.0.0.0 - 6.255.255.255
+</code></pre><p>A Whois Result shows this as part of the US AISC.</p><p>There are no obvious public facing services for 6.6.6.6</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 6.6.6.6 │
+╰────────────────────────╯
+ 6.6.6.6 ┌PTR -
+         ├ASN N/A (address not announced)
+         ├ORG Headquarters, USAISC
+         ├NET N/A (CONUS-YPG-NET)
+         ├GEO Sierra Vista, Arizona (US)
+         └REP ✓ NONE
+</code></pre><ul><li><a href=https://bgp.tools/prefix/6.0.0.0/8>BGP.tools for 6.6.6.6</a></li><li><a href=https://ipinfo.io/6.6.6.6>ipinfo for 6.6.6.6</a></li></ul><h2 id=7777>7.7.7.7<a class=anchor href=#7777>#</a></h2><h4 id=ip-net-6>IP Net:</h4><pre><code>7.0.0.0/8 -&gt; 7.0.0.0 - 7.255.255.255
+</code></pre><p>This range is part of the US DoD.</p><p>There are no obvious public facing services for 7.7.7.7</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 7.7.7.7 │
+╰────────────────────────╯
+
+ 7.7.7.7 ┌PTR -
+         ├ASN 749 (DNIC-AS-00749, US)
+         ├ORG DoD Network Information Center
+         ├NET 7.7.7.0/24 (DISANET7)
+         ├GEO Whitehall, Ohio (US)
+         └REP ✓ NONE
+</code></pre><ul><li><a href=https://bgp.tools/prefix/7.0.0.0/8>BGP.tools for 7.7.7.7</a></li><li><a href=https://ipinfo.io/7.7.7.7>ipinfo for 7.7.7.7</a></li></ul><h2 id=8888>8.8.8.8<a class=anchor href=#8888>#</a></h2><h4 id=ip-net-7>IP Net:</h4><pre><code> 8.8.8.0/24 -&gt; 8.8.8.0 - 8.8.8.255
+</code></pre><p>This range is allocated to Google by ARIN - Canada and USA.
+Google runs a public DNS resolver on 8.8.8.8</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 8.8.8.8 │
+╰────────────────────────╯
+
+ 8.8.8.8 ┌PTR dns.google
+         ├ASN 15169 (GOOGLE, US)
+         ├RNK #1818
+         ├ORG Google LLC
+         ├NET 8.8.8.0/24 (GOGL)
+         ├ABU network-abuse@google.com
+         ├ROA ✓ VALID (1 ROA found)
+         ├TYP  Anycast IP   DC  Google LLC
+         ├GEO London, Westminster (GB)
+         ├POR Open ports: 53, 443
+         └REP ✓  KNOWN GOOD as &quot;Google Public DNS&quot;
+</code></pre><p>Interestingly the open ports are 53 for DNS and 443 which i&rsquo;m assuming is for DoH but also resolves dns.google</p><ul><li><a href=https://bgp.tools/prefix/8.8.8.0/24>BGP.tools for 8.8.8.8</a></li><li><a href=https://ipinfo.io/8.8.8.8>ipinfo for 8.8.8.8</a></li></ul><h2 id=9999>9.9.9.9<a class=anchor href=#9999>#</a></h2><h4 id=ip-net-8>IP Net:</h4><pre><code>9.9.9.0/24 -&gt; 9.9.9.0- 9.9.9.255
+</code></pre><p>Quad 9. Based out of Swizerland, Quad 9 runs a DNS resolver that aims to offer better privacy.</p><p>Administered by ARIN - Canada and USA</p><pre><code class=language-ts>╭────────────────────────╮
+│ ASN lookup for 9.9.9.9 │
+╰────────────────────────╯
+
+ 9.9.9.9 ┌PTR dns9.quad9.net
+         ├ASN 19281 (QUAD9-AS-1, CH)
+         ├RNK #33644
+         ├ORG Quad9
+         ├NET 9.9.9.0/24 (CLEAN-97)
+         ├ABU abuse@quad9.net
+         ├ROA ✓ VALID (1 ROA found)
+         ├TYP  Anycast IP
+         ├GEO Tokyo, Tokyo (JP)
+         ├POR Open ports: 53, 443
+         └REP ✓  KNOWN GOOD as &quot;IBM Quad9 Public DNS&quot;
+</code></pre><p>Whilst 9.9.9.9 has port 443 open, it is exclusively used for DNS.
+Interestingly, the DNS record for quad9.net resolves to 216.21.3.77 (Feb 2024) which is part of the prefix 216.21.2.0/23 allocated to AS715 - WoodyNet, Inc <a href=https://woodynet.net/>https://woodynet.net/</a></p><ul><li><a href=https://bgp.tools/prefix/9.9.9.0/24>BGP.tools for 9.9.9.9</a></li><li><a href=https://ipinfo.io/9.9.9.9>ipinfo for 9.9.9.9</a></li></ul><h2 id=extras>Extras<a class=anchor href=#extras>#</a></h2><h3 id=0000>0.0.0.0<a class=anchor href=#0000>#</a></h3><h4 id=ip-net-9>IP Net:</h4><pre><code>0.0.0.0/8 -&gt; 0.0.0.0 - 0.255.255.255
+</code></pre><p>0.0.0.0 <a href=https://en.wikipedia.org/wiki/Reserved_IP_addresses>is reserved</a> as a current or local network.</p><p>This along with the 10.0.0.0/8 subnet are addresses allocated for private internet as <a href=https://datatracker.ietf.org/doc/html/rfc1918>outlined in RFC1918</a>.</p><h3 id=10101010>10.10.10.10<a class=anchor href=#10101010>#</a></h3><h4 id=ip-net-10>IP Net:</h4><pre><code>10.0.0.0/8 -&gt; 10.0.0.0 - 10.255.255.255
+</code></pre><p>Reserved private network space as outlined above. It is also commonly refered to as a <a href=https://en.wikipedia.org/wiki/Bogon_filtering>Bogon address</a></p><h3 id=20202020>20.20.20.20<a class=anchor href=#20202020>#</a></h3><h4 id=ip-net-11>IP Net:</h4><pre><code>20.0.0.0/11 -&gt; 20.0.0.0 - 20.31.255.255
+</code></pre><p>Registered to <a href=https://www.microsoft.com/en-au>Microsoft</a>, an <a href=https://en.wikipedia.org/wiki/Microsoft>American technology company</a></p><p>No obvious public services.</p><h3 id=30303030>30.30.30.30<a class=anchor href=#30303030>#</a></h3><h4 id=ip-net-12>IP Net:</h4><pre><code>30.0.0.0/8 -&gt; 30.0.0.0 - 30.255.255.255
+</code></pre><p>Registered to <strong>DoD</strong></p><p>No obvious public services.</p><h3 id=40404040>40.40.40.40<a class=anchor href=#40404040>#</a></h3><h4 id=ip-net-13>IP Net:</h4><pre><code>40.40.40.0/24 -&gt; 40.40.40.0 - 40.40.40.255
+</code></pre><p>Registered to <a href=https://www.telefonica.com.ar/>Telefonica de Argentina</a>, an <a href=https://es.wikipedia.org/wiki/Telef%C3%B3nica_Argentina>Argentinian communications company</a></p><p>No obvious public services.</p><h3 id=50505050>50.50.50.50<a class=anchor href=#50505050>#</a></h3><h4 id=ip-net-14>IP Net:</h4><pre><code>50.50.0.0/16 -&gt; 50.50.0.1 - 50.50.255.254
+</code></pre><p>Possibly registered to <a href=https://en.wikipedia.org/wiki/Frontier_Communications>Frontier communications of America</a></p><p>Whois has frontiernet.net which loads frontier.yahoo</p><p>No obvious public services.</p><h3 id=60606060>60.60.60.60<a class=anchor href=#60606060>#</a></h3><h4 id=ip-net-15>IP Net:</h4><pre><code>60.60.0.0/17 -&gt; 60.60.0.1 - 60.60.127.254
+</code></pre><p>Registered to <a href=https://www.jcom.co.jp/en/corporate/>JCOM co ltd</a>. More infor can be found on their <a href=https://ja.wikipedia.org/wiki/JCOM>Japanese Wikipedia page</a></p><p>No obvious public services.</p><h3 id=70707070>70.70.70.70<a class=anchor href=#70707070>#</a></h3><h4 id=ip-net-16>IP Net:</h4><pre><code>70.68.0.0/14 -&gt; 70.68.0.1 - 70.71.255.254
+</code></pre><p>Registed to <a href=https://shawcable.net>Shaw communicatons</a>, a Canadian telecom company.</p><p>No obvious public services.</p><h3 id=80808080>80.80.80.80<a class=anchor href=#80808080>#</a></h3><h4 id=ip-net-17>IP Net:</h4><pre><code>80.80.80.0/24 -&gt; 80.80.80.0 - 80.80.80.255
+</code></pre><p>Registered to <a href=https://it.wikipedia.org/wiki/Freenom>Freedom Registry BV</a></p><p>Which changed its name from opentld.com -> freenom.com</p><p>No obvious public services.</p><h3 id=90909090>90.90.90.90<a class=anchor href=#90909090>#</a></h3><h4 id=ip-net-18>IP Net:</h4><pre><code>90.90.0.0/16 -&gt; 90.90.0.1 - 90.90.255.254
+</code></pre><p>Registered to <a href=https://en.wikipedia.org/wiki/Orange_S.A.>Orange</a>.</p><p>No obvious public services.</p><h3 id=100100100100>100.100.100.100<a class=anchor href=#100100100100>#</a></h3><p>Bogon IP address.</p><p>Popular usage includes with <a href=https://tailscale.com/>Tailscale</a></p><h3 id=opte>OPTE<a class=anchor href=#opte>#</a></h3><p>A cool project that visualises BGP and networks is called <a href=https://www.opte.org/about>OPTE</a>
+<img src=/uploads/opte.jpg alt="OPTE visualisation" title="OPTE Preview">
+<img alt="Creative Commons License" style=border-width:0;max-width:80px src=https://i.creativecommons.org/l/by-nc/4.0/88x31.png></p><p>OPTE visualises network topology and connections that exist between them that make up the internet.
+Networks are often clusters of IP ranges that connect to each other, and OPTE does a good job visualising this.</p><p>This was a fun exercise to learn about IP addresses and to also brush up on subnetting.</p><p>Have I missed anything, or are there any corrections? Please leave a comment below.</p><ul class=tags__list><li class="tag__item inner"><a class=tag__link href=https://adam.kostarelas.com/tags/tech/>tech</a></li></ul></article><div class=pagination><a class=pagination__item href=https://adam.kostarelas.com/blog/arc-browser-privacy-check/><span class=pagination__label>Previous Post</span>
+<span class=pagination__title>Arc Browser, how private is it?</span></a></div><script src=https://giscus.app/client.js data-repo=adamxweb/adamxweb.github.io data-repo-id="MDEwOlJlcG9zaXRvcnkyNzkwMTk0ODk=" data-category=Blog data-category-id=DIC_kwDOEKF_4c4CQk_G data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=en crossorigin=anonymous async></script></div></div><div class=toc-container><nav id=TableOfContents><ul><li><a href=#1111>1.1.1.1</a><ul><li></li></ul></li><li><a href=#2222>2.2.2.2</a><ul><li></li></ul></li><li><a href=#3333>3.3.3.3</a><ul><li></li></ul></li><li><a href=#4444>4.4.4.4</a><ul><li></li></ul></li><li><a href=#5555>5.5.5.5</a><ul><li></li></ul></li><li><a href=#6666>6.6.6.6</a><ul><li></li></ul></li><li><a href=#7777>7.7.7.7</a><ul><li></li></ul></li><li><a href=#8888>8.8.8.8</a><ul><li></li></ul></li><li><a href=#9999>9.9.9.9</a><ul><li></li></ul></li><li><a href=#extras>Extras</a><ul><li><a href=#0000>0.0.0.0</a></li><li><a href=#10101010>10.10.10.10</a></li><li><a href=#20202020>20.20.20.20</a></li><li><a href=#30303030>30.30.30.30</a></li><li><a href=#40404040>40.40.40.40</a></li><li><a href=#50505050>50.50.50.50</a></li><li><a href=#60606060>60.60.60.60</a></li><li><a href=#70707070>70.70.70.70</a></li><li><a href=#80808080>80.80.80.80</a></li><li><a href=#90909090>90.90.90.90</a></li><li><a href=#100100100100>100.100.100.100</a></li><li><a href=#opte>OPTE</a></li></ul></li></ul></nav></div></div></main><footer class=post__footer><div class=social-icons><a class=social-icons__link title=GitHub href=https://github.com/adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/github.svg)></div></a><a class=social-icons__link title=Instagram href=https://instagram.com/adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/instagram.svg)></div></a><a class=social-icons__link title=Twitter href=adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/twitter.svg)></div></a><a class=social-icons__link title=LinkedIn href=https://www.linkedin.com/in/adamkostarelas/ target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/linkedin.svg)></div></a></div><p>© 2024 Adam Kostarelas | <a href=/privacy>Privacy</a> | <a href=/open>Open</a></p></footer><script src=https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js></script>
+<script src=https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js data-autoloader-path=https://unpkg.com/prismjs@1.20.0/components/></script>
+<script src=/js/table-of-contents.js></script></body></html>
