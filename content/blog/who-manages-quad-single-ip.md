@@ -4,7 +4,7 @@ title: 'Quad single IP addresses'
 date: 2024-03-01T17:20:23.000+10:00
 slug: quad-single-ip-addresses
 description: Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024.
-image: "/uploads/quadips.png"
+image: "/uploads/quadip.png"
 keywords:
 - Who owns quad single ip addresses
 - quad ip address
