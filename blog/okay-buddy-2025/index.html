@@ -1,0 +1,115 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=language content="en"><title>Okay Buddy skateboarding dog writeup |
+Adam Kostarelas</title><meta itemprop=name content="Okay Buddy skateboarding dog writeup |
+      Adam Kostarelas"><meta name=description content="Writeup from B sides Canberra 2025's CTF hosted by skateboarding dog for 'okay buddy'"><meta property="og:description" content="Writeup from B sides Canberra 2025's CTF hosted by skateboarding dog for 'okay buddy'"><meta itemprop=description content="Writeup from B sides Canberra 2025's CTF hosted by skateboarding dog for 'okay buddy'"><meta name=keywords content="bsides canberra 2025 ,skateboard dog 2025 okay buddy writeup ,bsides skateboard dog ctf writeup ,adam kostarelas ,blog"><meta name=coverage content="Worldwide"><meta name=distribution content="Global"><meta name=HandheldFriendly content="True"><meta itemprop=image content="https://adam.kostarelas.com/uploads/github-macos-malware.png"><meta property="og:image" content="https://adam.kostarelas.com/uploads/github-macos-malware.png"><meta name=twitter:image content="https://adam.kostarelas.com/uploads/github-macos-malware.png"><meta name=twitter:image:src content="https://adam.kostarelas.com/uploads/github-macos-malware.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Okay Buddy skateboarding dog writeup"><meta name=twitter:description content="Writeup from B sides Canberra 2025&amp;#39;s CTF hosted by skateboarding dog for &amp;#39;okay buddy&amp;#39;"><meta name=twitter:creator content="@adamxweb"><link rel=sitemap type=application/xml title=Sitemap href=https://adam.kostarelas.com/sitemap.xml><meta name=robots content="index,follow"><meta name=googlebot content="index,follow"><a rel=me href=https://aus.social/@adamxweb></a>
+<link rel=canonical href=https://adam.kostarelas.com><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css><script src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js></script>
+<link rel=icon href=/uploads/favicon.png><link rel=stylesheet href=/css/post.min.f22d6fb7f447c3cb16f93760c0cae988897f0d6864b5eb2942f89ee741c7b82d.css integrity="sha256-8i1vt/RHw8sW+TdgwMrpiIl/DWhktespQvie50HHuC0="><link rel=stylesheet href=/css/custom.min.518fedc78f47d873147c0508abc219ae0c52e11389120ce8ad4ffdf28785b7d2.css integrity="sha256-UY/tx49H2HMUfAUIq8IZrgxS4ROJEgzorU/98oeFt9I="><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/adam.kostarelas.com\/"},"articleSection":"blog","name":"Okay Buddy skateboarding dog writeup","headline":"Okay Buddy skateboarding dog writeup","description":"Writeup from B sides Canberra 2025\u0027s CTF hosted by skateboarding dog for \u0027okay buddy\u0027","inLanguage":"en-US","author":"Adam Kostarelas","creator":"Adam Kostarelas","publisher":"Adam Kostarelas","accountablePerson":"Adam Kostarelas","copyrightHolder":"Adam Kostarelas","copyrightYear":"2025 ","datePublished":"2025-09-28 20:20:26 \u002b1000 \u002b1000","dateModified":"2025-09-28 20:20:26 \u002b1000 \u002b1000","url":"https:\/\/adam.kostarelas.com\/blog\/okay-buddy-2025\/","wordCount":"1369","keywords":["bsides canberra 2025","skateboard dog 2025 okay buddy writeup","bsides skateboard dog ctf writeup","adam kostarelas","blog","Blog"]}</script><script async defer src=https://a.adam.kostarelas.com/latest.js></script><noscript><img src="https://a.adam.kostarelas.com/noscript.gif?collect-dnt=true" alt referrerpolicy=no-referrer-when-downgrade></noscript></head><body class="blog single"><nav role=navigation class=top><a href=/ class="nav-link amain">Home</a>
+<a class="nav-link active" href=/blog class="nav-link amain">Blog</a>
+<a href=/projects class="nav-link amain">Projects</a></nav><main><div class=flex-wrapper><div class=post__container><div class=post><header class=post__header><h1 id=post__title>Okay Buddy skateboarding dog writeup</h1><div class=post__details><time datetime="2025-09-28 20:20:26 +1000 +1000" class=post__date>Sep 28 2025</time><ul class=tags__list><li class="tag__item inner"><a class=tag__link href=https://adam.kostarelas.com/tags/tech/>tech</a></li></ul></div></header><article class=post__content><p><img src=/uploads/bsidesc2025/ctfsplash.png alt="CTF splashscreen"></p><p>I&rsquo;ve only done a handful of CTF challenges before and found that I&rsquo;ve gravitated towards forensics, OSINT and some cryptography.
+This challenge was outside of my comfort zone, but I wanted to persist and try something new.</p><p>It&rsquo;s fun when there&rsquo;s a theme to a CTF, and skateboarding dog did an amazing job with the 2D pixelart and game.</p><h2 id=skateboarding-dog-ctf-writeup>Skateboarding dog CTF writeup<a class=anchor href=#skateboarding-dog-ctf-writeup>#</a></h2><h3 id=okay-buddy>Okay Buddy<a class=anchor href=#okay-buddy>#</a></h3><p>There&rsquo;s a flag in the tree, and Buddy is so close to help us grab it.
+When chatting to Buddy something seems wrong..</p><p><img src=/uploads/bsidesc2025/buddy.gif alt="Never ending Buddy conversation"></p><p>There are always 4 options to choose from and it&rsquo;s not super obvious what replies are correct, with &lsquo;Interesting, Right, Yeah and I see&rsquo;.</p><p>Time to inspect the code and try to find why we&rsquo;re having such nice weather.
+<img src=/uploads/bsidesc2025/inspection.png alt="Never ending Buddy conversation"></p><p>The source code reveals that the correct sequence of responses will unlock the encrypted flag.
+Trying to brueforce it won&rsquo;t work, as there are <code>4^30</code> possibilities.</p><p>Two important constants are defined:</p><p><code>DATA</code> is a huge base64 blob, which we can later use to XOR against a “state” buffer and
+<code>ENCRYPTED_FLAG</code> is the AES-GCM cipher text of the flag.</p><p>Even though it looks like a silly conversation, the game is secretly adding digits for every response being 30 numbers long.</p><p>The game starts with a state that’s all zeroes and every time you make a choice, the game combines that block with the current state using XOR. After 30 moves if your state is all ones buddy gets the flag, if not you need to listen more closely..</p><p>To try and solve this, as we can&rsquo;t bruteforce, theres another way using math. understood this like sudoku, if a &rsquo;number&rsquo; doesn&rsquo;t fit in a square, stop and try something else.</p><table><thead><tr><th>Sudoku ✍️</th><th>XOR Puzzle chatting with Buddy 🐶</th></tr></thead><tbody><tr><td>Sudoku cell (to be filled)</td><td>Buddy Yapping</td></tr><tr><td>Candidate number (1–9)</td><td>Response, I see etc.</td></tr><tr><td>Sudoku rule check (row/col/box)</td><td>XOR lock check</td></tr><tr><td>Wrong number, erase & backtrack</td><td>Response fails</td></tr><tr><td>Number fits, continue</td><td>Response passes</td></tr><tr><td>You win the Sudoku puzzle</td><td>Flag taken from the tree</td></tr></tbody></table><pre><code class=language-javascript>     Sudoku                          Buddy Conversation 
+
+Step 1: Start                Step 1: Yap 1
+. . . | . . . | . . .        ├
+. . . | . . . | . . .        ├─ Interesting (1) → &quot;You know, trees like that one...&quot; ✅ Continue
+. . . | . . . | . . .        ├─ Right (2) → &quot;Oh okay then.&quot; ❌ Prune
+------+-------+-------       ├─ Yeah (3) → &quot;Hmm, not quite.&quot; ❌ Prune
+. . . | . . . | . . .        └─ I see (4) → &quot;Wrong choice!&quot; ❌ Prune
+. . . | . . . | . . .
+. . . | . . . | . . .
+------+-------+-------
+. . . | . . . | . . .
+. . . | . . . | . . .
+. . . | . . . | . . .
+
+--------------------------------------------------------------
+
+Step 2:                       Step 2: Yap 2
+Place &quot;5&quot; in Cell (1,1)
+5 . . | . . . | . . .         ├─ Interesting (1) → &quot;No, not helpful.&quot; ❌ Prune
+. . . | . . . | . . .         ├─ Right (2) → &quot;Hmm, not quite.&quot; ❌ Prune
+. . . | . . . | . . . 		  ├─ Yeah (3) → &quot;If your park has a bunch of lollipop trees...&quot; ✅ Continue
+------+-------+-------        └─ I see (4) → &quot;Wrong path!&quot; ❌ Prune
+. . . | . . . | . . .                   
+. . . | . . . | . . .
+. . . | . . . | . . .
+------+-------+-------
+. . . | . . . | . . .
+. . . | . . . | . . .
+. . . | . . . | . . .
+
+--------------------------------------------------------------
+
+Step 3:         			  Step 3: Yap 3
+Place &quot;3&quot; in Cell (1,2)
+5 3 . | . . . | . . .         ├─ Interesting (1) → &quot;Not quite.&quot; ❌ Prune
+. . . | . . . | . . .         ├─ Right (2) → &quot;Wrong again.&quot; ❌ Prune
+. . . | . . . | . . .         ├─ Yeah (3) → &quot;Trees like those are actually doing more harm...&quot; ✅ Continue
+------+-------+-------        └─ I see (4) → &quot;That’s not it.&quot; ❌ Prune
+. . . | . . . | . . .         
+. . . | . . . | . . .
+. . . | . . . | . . .
+------+-------+-------
+. . . | . . . | . . .
+. . . | . . . | . . .
+. . . | . . . | . . .
+
+--------------------------------------------------------------
+
+Step N: Completed Grid         Step N: Yap Flag
+5 3 4 | 6 7 8 | 9 1 2          ├─&quot;Oh right, the flag in the tree. Let me grab that for you...&quot; ✅
+6 7 2 | 1 9 5 | 3 4 8		   └─ skbdg{flag}
+1 9 8 | 3 4 2 | 5 6 7
+------+-------+-------
+8 5 9 | 7 6 1 | 4 2 3
+4 2 6 | 8 5 3 | 7 9 1
+7 1 3 | 9 2 4 | 8 5 6
+------+-------+-------
+9 6 1 | 5 3 7 | 2 8 4
+2 8 7 | 4 1 9 | 6 3 5
+3 4 5 | 2 8 6 | 1 7 9
+
+
+</code></pre><p>I used <strong>AI</strong> to help build a script to run the XOR and eventually decrypt the flag.</p><pre><code>(env) ➜  okay buddy python3 aisolver.py
+Loaded DATA: total bytes=3600, groups=30
+Simulating known choices...
+SUCCESS: final state is all 0xFF (condition satisfied).
+Derived AES key (SHA-256 of choices string): 5ff0f7de257c5e9f327acbc77a227e9e45953855fa5cbf3c9f6fa247db4f03ab
+--- DECRYPTED FLAG ---
+skbdg{the_flag_was_stuck_in_the_linear_algebranch!}
+----------------------
+</code></pre><p><a href=https://github.com/adamxweb/adamxweb.github.io/uploads/bsidesc2025/okay%20buddy/aisolver.py title="AI generated script on Github">Python Script for your inspection</a></p><p>By writing a little script to explore the possibilities, we unlocked the secret responses that the game wants to get the flag.</p><h3 id=flag-found>Flag found!<a class=anchor href=#flag-found>#</a></h3><p><code>skbdg{the_flag_was_stuck_in_the_linear_algebranch!}</code></p><p>The script solves and decrypts the flag, but that&rsquo;s no fun. We can also go through the options to see the satisfaction of Buddy giving us the flag too.. (for validation reasons)
+<img src=/uploads/bsidesc2025/flag.png alt="Buddy gave in and gave us the flag"></p><h3 id=technical-info>Technical info<a class=anchor href=#technical-info>#</a></h3><p>Even though the puzzle looked like we had to find the right sequence based on how Buddy was feeling, it was really a math puzzle in disguise.</p><p>XOR-based state machines are essentially linear algebra problems in disguise. When AES keys are derived directly from deterministic state (responses to buddy), reverse-engineering the selection logic allows us to reconstruct the exact key.</p><p>Combining static analysis with scripting makes it possible to recover the flag without ever playing through the game.</p><p>The important function to know when chatting to Buddy is:</p><pre><code class=language-javascript>handleYapResponse(t, e) {
+	this.choices.push(t);
+	const i = 30 * (4 * e + t),
+		  n = DATA.subarray(i, i + 30);
+	for (let r = 0; r &lt; 30; r++) this.st[r] ^= n[r];
+	return this.st.every((t =&gt; 255 == t))
+}
+
+</code></pre><p>As this checks if your conversation choices are correct at each step.<br>The script simulates <code>this.st</code> starting at zero, and XORs the 30-byte block <code>DATA.subarray(30*(4*g + choice) , 30*(4*g + choice)+30)</code> for each group <code>g (0..29)</code>.
+After XORing, the function checks if every byte in <code>this.st</code> equals 255.</p><p><code>DATA</code> = all candidate numbers and rules encoded.<br><code>st</code> = the current partially filled grid state.<br><code>XOR step</code> = checking your number fits all rules for that cell.<br><code>every == 255</code> = the grid is valid for now.</p><p>Similar to above, it solves like:</p><pre><code class=language-javascript>Initial state:
+st = [0, 0, 0, ..., 0]  (30 bytes)
+
+Step 1 (Yap choices):
+ ├─ Interesting
+ │    XOR DATA[0:30] → st updated
+ │    st != all 255 -&gt; pass ✅ Continue
+ │
+ ├─ Right
+ │    XOR DATA[1*30:1*30+30] → st updated
+ │    st != all 255 -&gt; fail ❌ Prune
+ │
+ ├─ Yeah
+ │    XOR DATA[2*30:2*30+30] → st updated
+ │    st != all 255 -&gt; fail ❌ Prune
+ │
+ └─ I see
+	  XOR DATA[3*30:3*30+30] → st updated
+	  st != all 255 -&gt; fail ❌ Prune
+</code></pre><p>This was a personal achievement to understand the problem and to solve it, and a bonus to be the first!
+<img src=/uploads/bsidesc2025/firstblood.png alt="First blood"></p><p>Looking forward to participating again next year!</p><ul class=tags__list><li class="tag__item inner"><a class=tag__link href=https://adam.kostarelas.com/tags/tech/>tech</a></li></ul></article><div class=pagination><a class=pagination__item href=https://adam.kostarelas.com/blog/github-macos-malware/><span class=pagination__label>Previous Post</span>
+<span class=pagination__title>Githubs reputation being exploited by bad actors to distribute malware</span></a></div><script src=https://giscus.app/client.js data-repo=adamxweb/adamxweb.github.io data-repo-id="MDEwOlJlcG9zaXRvcnkyNzkwMTk0ODk=" data-category=Blog data-category-id=DIC_kwDOEKF_4c4CQk_G data-mapping=pathname data-strict=0 data-reactions-enabled=1 data-emit-metadata=0 data-input-position=top data-theme=preferred_color_scheme data-lang=en crossorigin=anonymous async></script></div></div></div></main><footer class=post__footer><div class=social-icons><a class=social-icons__link title=GitHub href=https://github.com/adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/github.svg)></div></a><a class=social-icons__link title=Instagram href=https://instagram.com/adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/instagram.svg)></div></a><a class=social-icons__link title=Twitter href=adamxweb target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/twitter.svg)></div></a><a class=social-icons__link title=LinkedIn href=https://www.linkedin.com/in/adamkostarelas/ target=_blank rel=noopener><div class=social-icons__icon style=background-image:url(https://adam.kostarelas.com/images/social/linkedin.svg)></div></a></div><p>© 2025 Adam Kostarelas | <a href=/privacy>Privacy</a> | <a href=/open>Open</a></p></footer><script src=https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js></script>
+<script src=https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js data-autoloader-path=https://unpkg.com/prismjs@1.20.0/components/></script></body></html>
