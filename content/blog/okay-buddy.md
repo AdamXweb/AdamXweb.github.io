@@ -55,7 +55,7 @@ Even though it looks like a silly conversation, the game is secretly adding digi
 
 The game starts with a state that’s all zeroes and every time you make a choice, the game combines that block with the current state using XOR. After 30 moves if your state is all ones buddy gets the flag, if not you need to listen more closely..
 
-To try and solve this, as we can't bruteforce, theres another way using math. understood this like sudoku, if a 'number' doesn't fit in a square, stop and try something else.
+To try and solve this, as we can't do it easily with bruteforce, theres another way using math. understood this like sudoku, if a 'number' doesn't fit in a square, stop and try something else.
 
 
 | Sudoku  ✍️              | XOR Puzzle chatting with Buddy 🐶   |
@@ -147,7 +147,7 @@ skbdg{the_flag_was_stuck_in_the_linear_algebranch!}
 ----------------------
 ```
 
-[Python Script for your inspection](https://github.com/adamxweb/adamxweb.github.io/uploads/bsidesc2025/okay%20buddy/aisolver.py "AI generated script on Github") 
+[Python Script for your inspection](https://github.com/AdamXweb/AdamXweb.github.io/blob/master/uploads/bsidesc2025/okay%20buddy/aisolver.py "AI generated script on Github") 
 
 By writing a little script to explore the possibilities, we unlocked the secret responses that the game wants to get the flag.
 
