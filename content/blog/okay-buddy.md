@@ -1,9 +1,9 @@
 ---
-title: 'Okay Buddy skateboarding dog writeup'
+title: 'Okay Buddy skateboarding dog CTF writeup'
 date: 2025-09-28T20:20:26.000+10:00
 slug: okay-buddy-2025
 description: Writeup from B sides Canberra 2025's CTF hosted by skateboarding dog for 'okay buddy'
-image: "/uploads/github-macos-malware.png"
+image: "/uploads/okaybuddy.png"
 keywords:
 - bsides canberra 2025
 - skateboard dog 2025 okay buddy writeup
