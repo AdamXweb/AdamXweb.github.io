@@ -28,7 +28,7 @@ Arriving on Thursday morning was a bit of a shock, as the venue was absolutely p
 
 I think BSides provides a safe space for the cyber community to grow. There are countless people that I met, including people from other universities, industry, government and some people who were quite open about the kind of work they do, to offer advice, share tips and people were striking up conversations. It felt like a welcoming space for anyone involved in cybersecurity, regardless of their background.
 
-![Registration](./registration_b.JPG)
+![Registration](./registration_b.jpg)
 
 ## Favourite talks
 
