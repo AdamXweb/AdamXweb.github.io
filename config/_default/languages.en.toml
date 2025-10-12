@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+["params.author"]
+name = "Adam Kostarelas"
+image = "img/avatar.png"
+headline = "Cybersecurity and Privacy professional"
+subtitle = "Likes tinkering with browsers, working with small businesses and not for profits"
+homeintro = "Hi, I'm Adam"
+bio = "Cyber @ VCOSS"
+links = [
+	{ rss = "https://adam.kostarelas.com/index.xml" },
+	{ github = "https://github.com/adamxweb" },
+	{ mastodon = "https://aus.social/@adamxweb" },
+	{ linkedin = "https://linkedin.com/in/adamkostarelas" },
+	{ instagram = "https://instagram.com/adamxweb"}
+  ]
+madewith = [
+	{ mac = "img/made-on-macintosh.gif"},
+	{ nova = "img/made-with-nova.gif"},
+	{ email = "img/reply-via-email.gif"},
+	{ rss = "img/rss.gif"}
+  ]

@@ -1,0 +1,47 @@
+:root { --color-neutral: 255, 255, 255;
+--color-neutral-50:     241,252,252;
+--color-neutral-100:    161,185,206;
+--color-neutral-200:    111,147,179;
+--color-neutral-300:    210,222,240;
+--color-neutral-400:    103,122,194;
+--color-neutral-500:    80,105,70;
+--color-neutral-600:    7,10,13;
+--color-neutral-700:    20,30,39;
+--color-neutral-800:    13,19,26;
+--color-neutral-900:    0,0,0;
+--color-primary-50:     255,255,255;
+--color-primary-100:    255,255,255;
+--color-primary-200:    255,255,255;
+--color-primary-300:    254,235,186;
+--color-primary-400:    252,213,111;
+--color-primary-500:    251,191,36;
+--color-primary-600:    242,176,4;
+--color-primary-700:    202,146,154;
+--color-primary-800:    162,117,3;
+--color-primary-900:    122,88,2;
+--color-secondary-50:     255,255,255;
+--color-secondary-100:    255,255,255;
+--color-secondary-200:    189,245,254;
+--color-secondary-300:    113,234,254;
+--color-secondary-400:    38,222,253;
+--color-secondary-500:    2,182,212;
+--color-secondary-600:    2,147,172;
+--color-secondary-700:    1,113,131;
+--color-secondary-800:    1,78,91;
+--color-secondary-900:    0,43,50;
+--fancy: #9013fe;
+--mild: #31386B;
+
+}
+
+.fancy {
+	background: linear-gradient(90deg, var(--fancy), var(--mild));
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	transition: 0.1s;
+}
+
+.fico{max-width: 60px;}

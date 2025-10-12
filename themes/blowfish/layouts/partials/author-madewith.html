@@ -1,0 +1,21 @@
+{{ with .Site.Params.Author.madewith }}
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    {{ range $madewith := . }}
+      {{ range $name, $url := $madewith }}
+      {{with $url}}
+        {{ $tool := resources.Get . }}
+        {{ if eq $name "rss"}}
+        <a href="/index.xml">
+        {{else if eq $name "email"}}
+
+        <a href="mailto:q@adam.kostarelas.com">
+        {{else}}
+        <a>
+        {{end}}
+        <img src="{{ $tool.RelPermalink | safeURL }}" class="nozoom mr-2 fico">
+        {{ end }}
+        </a>
+      {{end}}
+    {{ end }}
+  </div>
+{{ end }}

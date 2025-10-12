@@ -1,37 +1,114 @@
-{{ define "styles" }}
-{{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/post.scss" "dest" "css/post.css") }}
-{{ end }}
 {{ define "main" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
-<header class="post__header">
-  <h1>{{.Title}}</h1>
-  {{ if or .Params.date }}
-  <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
-  {{ end }}
-</header>
-<div class="post__container">
-      
-      <div class="post">
-        <article class="post__content">
-            <h2>{{.Params.h2}}</h2>
-          <div class="row w-100 ls">
-              {{range .Params.Projects}}
-            <div class="pst">
-                <a class="overlay" href="{{.URL}}"></a>
-                <div class="post__header pjh">
-                    <h2 class="post__title pj">
-                    {{.name}}                    
-                </h2>
-                </div>
-                 <img src="{{.img}}" alt=""
-                  class="portimg">
-            </div>
-            {{end}}
-        </div>
-        </article>
-        {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
+ {{ .Scratch.Set "scope" "list" }}
+    {{ $enableToc := .Params.showTableOfContents | default (site.Params.list.showTableOfContents | default false) }}
+    {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
     
+    {{/* Hero */}}
+    {{ if site.Params.list.showHero | default false }}
+      {{ $heroStyle := print "hero/" site.Params.list.heroStyle ".html" }}
+      {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
+        {{ partial $heroStyle . }}
+      {{ else }}
+        {{ partial "hero/basic.html" . }}
+      {{ end }}
+    {{ end }}
+    
+    {{/* Header */}}
+    <header>
+      {{ if .Params.showBreadcrumbs | default (site.Params.list.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+      <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+        {{ if or .Params.date }}
+        <time datetime="{{ .Date }}" class="post__date">Last updated {{ .Date.Format $dateFormat }}</time>
+        {{ end }}
       </div>
-    </div>
-
+      {{ $translations := .AllTranslations }}
+      {{ with .File }}
+        {{ $path := .Path }}
+        {{ $jsPage := resources.Get "js/page.js" }}
+        {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+        <script
+          type="text/javascript"
+          src="{{ $jsPage.RelPermalink }}"
+          integrity="{{ $jsPage.Data.Integrity }}"
+          data-oid="views_{{ $path }}"
+          data-oid-likes="likes_{{ $path }}"></script>
+      {{ end }}
+    </header>
+    
+    {{/* Description (markdown content) */}}
+    {{ $tocMargin := cond $showToc "mt-12" "mt-0" }}
+    {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[140px]" "lg:top-10" }}
+    <section class="{{ $tocMargin }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      <div class="min-w-0 min-h-0 max-w-prose">
+        {{ .Content }}
+      </div>
+    </section>
+    
+    {{/* Article Grid */}}
+    {{ if gt .Pages 0 }}
+      {{ $cardView := .Params.cardView | default (site.Params.list.cardView | default false) }}
+      {{ $cardViewScreenWidth := .Params.cardViewScreenWidth | default (site.Params.list.cardViewScreenWidth | default false) }}
+      {{ $groupByYear := .Params.groupByYear | default (site.Params.list.groupByYear | default false) }}
+      {{ $orderByWeight := .Params.orderByWeight | default (site.Params.list.orderByWeight | default false) }}
+      {{ $groupByYear := and (not $orderByWeight) $groupByYear }}
+    
+     
+        {{ if $groupByYear }}
+              <h2 class="mt-12 mb-3 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              {{.Params.Intro}}
+              </h2>
+              <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+                {{ range .Params.Projects }}
+                <div
+                  class="group-hover-card group relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+                  <a href="{{ .externalUrl }}" target="_blank" rel="external" class="absolute inset-0"
+                    aria-label="{{ .name }}"></a>
+                    <div class="thumbnail_card nozoom w-full" style="background-image:url({{ .img}});"></div>
+                  {{ if and .Draft .Site.Params.article.showDraftLabel }}
+                    <span class="absolute top-0 right-0 m-2">
+                      {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+                    </span>
+                  {{ end }}
+                  <div class="px-6 py-4">
+                    {{ with .Params.externalUrl }}
+                      <div
+                        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+                        {{ $.name | emojify }}
+                        <span class="cursor-default align-top text-xs text-neutral-400 dark:text-neutral-500">
+                          <span class="rtl:hidden">&#8599;</span>
+                          <span class="ltr:hidden">&#8598;</span>
+                        </span>
+                      </div>
+                    {{ else }}
+                      <div
+                        class="group-hover-card-title decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 group-hover:underline group-hover:underline-offset-2">
+                        {{ .name | emojify }}
+                      </div>
+                    {{ end }}
+                    <div class="group-hover-cancel text-sm text-neutral-500 dark:text-neutral-400">
+                      {{ partial "article-meta/basic.html" . }}
+                    </div>
+                    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+                      <div class="prose dark:prose-invert py-1">{{ .Summary | plainify }}</div>
+                    {{ end }}
+                  </div>
+                  <div class="px-6 pt-4 pb-2"></div>
+                </div>
+                {{ end }}
+              </section>
+        {{ end }}{{/* End of groupByYear */}}
+    {{/* else: .Pages not greater to zero */}}
+    {{ else }}
+      <section class="mt-10 prose dark:prose-invert">
+        <p class="py-8 border-t">
+          <em>{{ i18n "list.no_articles" | emojify }}</em>
+        </p>
+      </section>
+    {{ end }}
+    {{ partial "pagination.html" . }}
 {{end}}
