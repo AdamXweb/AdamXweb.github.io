@@ -3,7 +3,7 @@ title: 'HuTasker, Hugo X Airtable'
 date: 2022-08-15T17:48:23.000+10:00
 slug: hutasker-hugo-x-airtable
 description: Integrating Hugo, a Static Site Generator with Airtable in a sample app, HuTasker. Read my insights on connecting to Airtable's APIs and making the site build on a schedule. Find out how quick and easy you can follow along at home to set up this theme with your data.
-image: "/uploads/hutasker.png"
+image: "./hutasker.png"
 keywords:
 - hugo
 - hutasker
@@ -39,7 +39,7 @@ Airtable presents a user with a friendly interface - a spreadsheet, or a kanban 
 Being very versatile and familiar to users, Airtable presented itself as an appropriate solution that could also act like a relative database with rows linking to each other.
 Designing the structure for the database, along with different 'Views' that can filter, sort, hide and restrict data was a perfect way to create 'server' like functionality without any programming. An example used is the 'open tasks' view which filters tasks
 
-![Screenshot of Airtable schema](/uploads/hutasker-database-schema.png "Airtable Database Schema")
+![Screenshot of Airtable schema](./hutasker-database-schema.png "Airtable Database Schema")
 
 Being able to effectively build a case that a free platform can replace most people's need for a server is encouraging.
 Although HuTasker presents itself as an Airtasker clone, it is missing functionality such as user account creation, and purposely omits the ability to post a task to ensure the quality of data of the template. Although it could be argued that the ability should be enabled for a sample data only site. I'd be afraid in terms of what kind of spam could accumulate if left unmoderated, or if a workflow (or Airtable Automation) to delete data on a schedule wasn't set up.
@@ -62,7 +62,7 @@ The technical literacy could obstruct most users from managing content in this w
 Moving all that functionality to a front end that most users are familiar with is essential. Managing data in a database is ideal, and Airtable is one of the closest consumer options that is very user friendly.
 
 ### Building the integration
-![Screenshot of Airtable Task sheet](/uploads/hutasker-airtable-screenshot.png "Airtable screenshot")
+![Screenshot of Airtable Task sheet](./hutasker-airtable-screenshot.png "Airtable screenshot")
 
 Building the integration, I wanted to focus on ensuring everything was available for free.
 That means, free hosting, free 'backend' and of course a free template / data integration available as an open source project.
@@ -87,13 +87,13 @@ A list of common errors have been compiled in the Wiki to help future users modi
 Security considerations will revolve around how the user manages their API keys to Airtable. As Airtable's API supports CRUD (Create, Read, Update and Delete) it is important to note as a vulnerability to the system.
 
 ### Theme Features
-![HuTasker screenshot of category paget](/uploads/hutasker-tasks.png "HuTasker screenshot of category page")
+![HuTasker screenshot of category paget](./hutasker-tasks.png "HuTasker screenshot of category page")
 
 #### Tasks
 The main part of this theme is presenting the tasks. Tasks are things that need to be completed by 'users', where if this were a real site, users would be able to make offers to [complete the tasks](https://hutasker.netlify.app/tasks/#rechQDh0ppM3rVpQA).
 This page is managed with [Javascript](https://github.com/AdamXweb/HuTasker/blob/737cbe013d3f3639903c77f38bb0e72638b5d97c/layouts/partials/task/card-summary.html#L50-L79), showing the pages created and populated by Hugo through the help of CSS classes.
 
-![HuTasker screenshot of category page](/uploads/hutasker-categories.png "HuTasker screenshot of category page")
+![HuTasker screenshot of category page](./hutasker-categories.png "HuTasker screenshot of category page")
 
 #### Categories
 Categories was included as a way to add some SEO functionality and extra pages into the template. With the help of a command, anything listed in categories can have their own Hugo pages created that then populate current data from Airtable's API (on the CRON schedule).

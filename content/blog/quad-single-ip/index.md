@@ -4,7 +4,7 @@ title: 'Quad single IP addresses'
 date: 2024-03-01T17:20:23.000+10:00
 slug: quad-single-ip-addresses
 description: Who manages the rare quad single ip address like 1.1.1.1, and what are they typically used for. I investigated their public use as of early 2024.
-image: "/uploads/quadip.png"
+image: "./quadip.png"
 keywords:
 - Who owns quad single ip addresses
 - quad ip address
@@ -403,7 +403,7 @@ Popular usage includes with [Tailscale](https://tailscale.com/)
 
 ### OPTE
 A cool project that visualises BGP and networks is called [OPTE](https://www.opte.org/about)
-![OPTE visualisation](/uploads/opte.jpg "OPTE Preview")
+![OPTE visualisation](./opte.jpg "OPTE Preview")
 <img alt="Creative Commons License" style="border-width:0;max-width:80px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
 
 OPTE visualises network topology and connections that exist between them that make up the internet.

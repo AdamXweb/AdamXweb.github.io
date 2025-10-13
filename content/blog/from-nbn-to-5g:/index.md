@@ -2,7 +2,7 @@
 author: "Adam Kostarelas"
 date: 2022-05-05T04:08:00Z
 description: "My initial experience moving from nbn to 5G"
-image: "/uploads/5g-nbn-switch.png"
+image: "./5g-nbn-switch.png"
 keywords: ["nbn 5g telstra switch", "nbn issues switch to 5g", "telstra 5g speeds", "nbn speeds vs 5g"]
 math: false
 slug: "from-nbn-to-5g"
@@ -24,8 +24,8 @@ In Australia it can be tough as a consumer to get decent upload speeds at a reas
 For example, a nbn plan with 100Mbps download and 20Mbps upload is the standard ['Home fast'](https://www.nbnco.com.au/learn/speed#home-fast) plan. To get 40Mbps upload, most providers would charge an extra $10 often costing around $100 AUD/month.
 
 ### An Australian ISP, Superloop's internet plans as at May 2022 for comparison.
-![](/uploads/nbn-5g/superloop-nbn.png)
-![](/uploads/nbn-5g/superloop-fixedwireless.png)
+![](./superloop-nbn.png)
+![](./superloop-fixedwireless.png)
 
 
 Ironically how I wish I was eligible for fixed wireless at the promised speeds and prices.
@@ -33,30 +33,30 @@ Ironically how I wish I was eligible for fixed wireless at the promised speeds a
 The second part of wanting to switch to 5G was the flexibility of month to month billing and cheaper monthly costs.
 
 My only option in my area was Telstra 5G. They promised
-![Quoted speeds](/uploads/nbn-5g/quoted-speed.png)
+![Quoted speeds](./quoted-speed.png)
 [Critical information summary of plan](https://www.telstra.com.au/help/critical-information-summaries/personal/home-internet/5g-home-internet/5G-home-internet-plan) 
 
 
 ### Modem arrived.
-![](/uploads/nbn-5g/modem.png)
+![](./modem.png)
 
 **Time to test.**
 
 
 ### First tests (Peak) connected directly to Telstra 5G / Wifi 5 (AC) network Router with an iPhone
-![https://www.speedtest.net/result/i/5101216739](/uploads/nbn-5g/5101216739.png)
+![https://www.speedtest.net/result/i/5101216739](./5101216739.png)
 Above, Superloop NBN connectoin
 
-![https://www.speedtest.net/result/i/5101218699](/uploads/nbn-5g/5101218699.png)
+![https://www.speedtest.net/result/i/5101218699](./5101218699.png)
 Above, Telstra 5G
 
 ### Second tests (Off Peak) connected with Macbook to Telstra 5G / Wifi 5 (AC) network.
 
 
-![https://www.speedtest.net/result/i/5102939790](/uploads/nbn-5g/5102939790.png)
+![https://www.speedtest.net/result/i/5102939790](./5102939790.png)
 Above, Superloop NBN connectoin
 
-![https://www.speedtest.net/result/i/5102939079](/uploads/nbn-5g/5102939079.png)
+![https://www.speedtest.net/result/i/5102939079](./5102939079.png)
 Above, Telstra 5G (gotta love the 100Mbps + Upload)
 
 

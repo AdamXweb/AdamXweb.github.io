@@ -3,7 +3,7 @@
 author: "Adam Kostarelas"
 date: 2021-01-03T13:00:00Z
 description: "Easy tweaks using Apps to make using your Mac easier"
-image: "/uploads/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-3840x2160-1455.png"
+image: "./feature.png"
 keywords: ["desktopaint mac", "window management improvements for mac", "better touch tool uses", "quality of life improvements for mac", "mac apps"]
 math: false
 slug: "easy-mac-quality-of-life-improvements"
@@ -15,7 +15,6 @@ toc: false
 
 It's easy to make life easier on your Mac with the aid of a few Mac Apps, as well as hidden features within MacOS. Here's a few suggestions.
 
-![Quality of LIfe improvements](/uploads/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-3840x2160-1455.png "Hero intro")
 
 ## Better Touch Tool
 
@@ -23,7 +22,7 @@ It's easy to make life easier on your Mac with the aid of a few Mac Apps, as wel
 
 Instead of clicking and dragging the Instead of clicking and dragging the [title bar](https://developer.apple.com/design/human-interface-guidelines/macos/windows-and-views/window-anatomy/#title-bar "Apple HID title bar info") to move the window around, a simple trick is to turn on a keyboard shortcut. When your cursor hovers over a window, your press the button and easily move the window around, quickly and effortlessly.
 
-![](/uploads/screen-shot-2021-01-04-at-9-48-08-pm.png)
+![](./screen-shot-2021-01-04-at-9-48-08-pm.png)
 
 I'd recommend using the fn key on Apple keyboards to move the window, as it's in the bottom left corner of the keyboard and makes it easy to quickly press.
 
@@ -33,7 +32,7 @@ On non-Apple keyboards like the one I'm currently using, I'd recommend the combi
 
 I've been using Apple keyboards, either on the MacBooks themselves, or on my external Bluetooth keyboard for quite a few years, and the habit of wanting to press at the top left to control the volume is something I must be able to do.
 
-![](/uploads/screen-shot-2021-01-04-at-10-41-28-pm.png)
+![](./screen-shot-2021-01-04-at-10-41-28-pm.png)
 
 #### Window movements:
 
@@ -63,10 +62,10 @@ If you're like me, I try to find efficiencies in the Operating System that i'm u
 
 A nifty feature called hot corners allows you to move the mouse to the edge of the screen
 
-![](/uploads/screen-shot-2021-01-04-at-10-08-30-pm.png)
+![](./screen-shot-2021-01-04-at-10-08-30-pm.png)
 Hot Corners is found at the bottom left of System Preferences --> Mission Control.
 
-![](/uploads/screen-shot-2021-01-04-at-10-08-43-pm.png)
+![](./screen-shot-2021-01-04-at-10-08-43-pm.png)
 
 These are my screen corner settings. The one I first used from back in 2012 was the top left for notification centre, which just made sense instead of adding an extra click in.
 
