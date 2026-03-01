@@ -15,7 +15,7 @@ image = "img/avatar.png"
 headline = "Cybersecurity and Privacy professional"
 subtitle = "Likes tinkering with browsers, working with small businesses and not for profits"
 homeintro = "Hi, I'm Adam"
-bio = "Cyber @ VCOSS"
+bio = "Tech & Cyber @ HumanAbility"
 links = [
 	{ rss = "https://adam.kostarelas.com/index.xml" },
 	{ github = "https://github.com/adamxweb" },
@@ -24,6 +24,7 @@ links = [
 	{ instagram = "https://instagram.com/adamxweb"}
   ]
 madewith = [
+	{ privacy = "img/privacy.gif"},
 	{ mac = "img/made-on-macintosh.gif"},
 	{ nova = "img/made-with-nova.gif"},
 	{ email = "img/reply-via-email.gif"},
