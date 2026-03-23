@@ -193,3 +193,4 @@ I'll update this post with any optimisations I find along the way.
 #### Most underrated photo editing app - Aperture
 Sort of makes a comeback, if you're patiend and want to play workarounds. This would be so much simpler on a physical device though
 ![Mist App](./img/aperture.gif)
+The photos import, exifdata is viewable, and adjustments can be made to the photo, and can even be exported!. However the preview doesn't show when editing, and only shows something when the photo is dragged, which is less than ideal.
