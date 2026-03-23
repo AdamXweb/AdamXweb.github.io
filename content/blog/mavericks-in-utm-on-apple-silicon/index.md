@@ -190,3 +190,6 @@ It might be fun to restore from a time machine backup on the network to have a l
 Let me know how you go, and reach out on Github if you run into any issues.
 I'll update this post with any optimisations I find along the way.
 
+#### Most underrated photo editing app - Aperture
+Sort of makes a comeback, if you're patiend and want to play workarounds. This would be so much simpler on a physical device though
+![Mist App](./img/aperture.gif)
