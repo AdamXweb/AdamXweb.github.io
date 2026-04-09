@@ -13,10 +13,10 @@ toc: false
 ---
 
 
-Funnily enough, I was playing around with [older versions of MacOS](/blog/mavericks-in-utm-on-silicon) recently, and had nostalgia to the design elements of MacOS. I especially remember the aluminium, and the sliding interface controls of itunes reminding me of the skeumorphism days.
+Funnily enough, I was playing around with [older versions of MacOS](/blog/mavericks-in-utm-on-silicon) recently, and had nostalgia to the design elements of MacOS. I especially remember the aluminium, and the sliding interface controls of iTunes reminding me of the skeuomorphism days.
 ![comparison to mavericks](./mavericks.png)
 
-It's got the feel of iTunes 5.0 according to this [Arstechica article](https://arstechnica.com/gadgets/2012/11/itunes-through-the-ages/) which honestly was before my time switching to MacOS. 
+It's got the feel of iTunes 5.0 according to this [Arstechnica article](https://arstechnica.com/gadgets/2012/11/itunes-through-the-ages/) which honestly was before my time switching to MacOS. 
 
 
 There are enough features to be helpful to control your music, but not enough to be distracting. The ability to keep on top is nifty and makes it a simple fun app to control your music.
