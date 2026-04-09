@@ -30,6 +30,7 @@ enableEmoji = true
   author = "authors"
   series = "series"
 
+
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
@@ -45,6 +46,8 @@ enableEmoji = true
     [[related.indices]]
         name = "tags"
         weight = 100
+        includeNewer = true
+
 
     [[related.indices]]
         name = "categories"

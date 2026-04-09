@@ -16,7 +16,7 @@
 --color-primary-400:    252,213,111;
 --color-primary-500:    251,191,36;
 --color-primary-600:    242,176,4;
---color-primary-700:    202,146,154;
+--color-primary-700:    244,97,119;
 --color-primary-800:    162,117,3;
 --color-primary-900:    122,88,2;
 --color-secondary-50:     255,255,255;
@@ -31,6 +31,9 @@
 --color-secondary-900:    0,43,50;
 --fancy: #9013fe;
 --mild: #31386B;
+--old: 234, 137, 62;
+--old-alt: 237, 135, 45;
+--neongreen: #40ff70;
 
 }
 
@@ -44,4 +47,32 @@
 	transition: 0.1s;
 }
 
+.fancy-border{
+	border-color: var(--fancy) !important;
+	border-width: 1.5px;
+}
+
 .fico{max-width: 60px;}
+
+.old{
+	color:rgba(var(--old),1);
+}
+@media (prefers-color-scheme: dark) {
+.old{
+	color:rgba(var(--old-alt),1) !important;
+}
+.group-hover-card:hover{
+	border-color:rgba(var(--color-primary-600),1);
+}
+.rounded-md.border:hover{
+	color:rgba(var(--color-secondary-400),1);
+}
+p a:hover, li a:hover, nav a:hover, .article-content a:hover{
+	text-decoration: underline;
+	background-color: var(--neongreen);
+	color: #000000;
+	outline-color: var(--neongreen);
+	outline: 2px solid var(--neongreen);
+	border-radius: 2px;
+	outline-offset: 2px;
+}

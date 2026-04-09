@@ -15,9 +15,13 @@
   pageRef = "blog"
   weight = 10
 [[main]]
+  name = "Micro"
+  pageRef = "micro"
+  weight = 11
+[[main]]
 	name = "Projects"
 	pageRef = "projects"
-	weight = 11
+	weight = 12
 # [[main]]
  # name = "Parent"
  # weight = 20

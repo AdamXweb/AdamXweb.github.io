@@ -5,7 +5,7 @@
     {{ if $logo }}
       <div>
         <a href="{{ "" | relLangURL }}" class="flex">
-          <span class="sr-only">{{ .Site.Title | markdownify }}</span>
+          <span class="sr-only">{{if strings.Contains .Page "micro"}} {{ .Site.Params.micro }} {{else}}{{.Page}}{{ .Site.Title | emojify }}{{end}}</span>
           {{ if eq $logo.MediaType.SubType "svg" }}
             <span class="logo object-scale-down object-left nozoom">
               {{ $logo.Content | safeHTML }}
@@ -246,7 +246,7 @@
     <nav class="flex space-x-3">
       {{ if not .Site.Params.disableTextInHeader | default true }}
         <a href="{{ "" | relLangURL }}" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          {{ .Site.Title | markdownify }}
+          {{if strings.Contains .Page "micro"}} {{ .Site.Params.micro }} {{else}}{{ .Site.Title | emojify }}{{end}}
         </a>
       {{ end }}
     </nav>

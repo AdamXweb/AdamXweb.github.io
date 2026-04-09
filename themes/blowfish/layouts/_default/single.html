@@ -52,6 +52,16 @@
       <div class="min-w-0 min-h-0 max-w-fit">
         {{ partial "series/series.html" . }}
         <div class="article-content max-w-prose mb-20">
+          {{- if not .Page.Params.hideOutdated -}}
+           {{- $publishAgeYears := div (sub now.Unix .PublishDate.Unix) 31536000 -}}
+           {{- $lastModDate := .Lastmod}}
+           {{- $modAgeYears := div (sub now.Unix $lastModDate.Unix) 31536000 -}}
+           {{- with .Site.Params.tagPostsOlderThanXYears -}}
+           {{- if lt . $publishAgeYears $modAgeYears -}}
+           <i>Written on&nbsp;{{- $lastModDate | time.Format ":date_medium" -}}</i> —<span class="old"> this article is&nbsp;{{-  $publishAgeYears -}}&nbsp;years old</span>
+           {{- end -}}
+           {{- end -}}
+           {{- end -}}
           {{ .Content }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
