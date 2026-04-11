@@ -21,7 +21,7 @@ math: false
 toc: false
 ---
 
-Sometimes the best learning happens on a Saturday afternoon when you're just tinkering for fun. With rainy Melbourne weather outside, I booted up an AI and had a go at a creative experiment: designing a mockup ["CyberThing Trustmark"]((https://cyberthing.awesome-aussie.com) for consumer electronics. 
+Sometimes the best learning happens on a Saturday afternoon when you're just tinkering for fun. With rainy Melbourne weather outside, I booted up an AI and had a go at a creative experiment: designing a mockup ["CyberThing Trustmark"](https://cyberthing.awesome-aussie.com) for consumer electronics. 
 
 As a privacy and security advocate, i'm all for supporting organisations being transparent about how their device works, and what kind of data is collected and how it is used.
 
@@ -97,7 +97,7 @@ it's a bit harder to mock up e-commerce sites, as most likely it would either be
 
 ## Links
 
-[You can view the live analytics on my public dashboard](https://dashboard.simpleanalytics.com/cyberthing.awesome-aussie.com)
+[I've made the live website analytics public on a dashboard](https://dashboard.simpleanalytics.com/cyberthing.awesome-aussie.com)
 
 [Game Classification Government website](https://www.classification.gov.au/titles/age-empires-ii-definitive-edition)\
 [Energy Rating Database](https://reg.energyrating.gov.au/comparator/product_types/73/search/comprehensive/?wrapper_search=&expired_products=on&brand_names=apple&model_number=)\
