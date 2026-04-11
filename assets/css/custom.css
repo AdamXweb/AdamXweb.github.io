@@ -61,6 +61,7 @@
 .old{
 	color:rgba(var(--old-alt),1) !important;
 }
+}
 .group-hover-card:hover{
 	border-color:rgba(var(--color-primary-600),1);
 }

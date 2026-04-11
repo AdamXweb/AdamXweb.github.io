@@ -57,10 +57,10 @@
            {{- $lastModDate := .Lastmod}}
            {{- $modAgeYears := div (sub now.Unix $lastModDate.Unix) 31536000 -}}
            {{- with .Site.Params.tagPostsOlderThanXYears -}}
-           {{- if lt . $publishAgeYears $modAgeYears -}}
-           <i>Written on&nbsp;{{- $lastModDate | time.Format ":date_medium" -}}</i> —<span class="old"> this article is&nbsp;{{-  $publishAgeYears -}}&nbsp;years old</span>
-           {{- end -}}
-           {{- end -}}
+              {{- if lt . $publishAgeYears $modAgeYears -}}
+              <i>Written on&nbsp;{{- $lastModDate | time.Format ":date_medium" -}}</i> —<span class="old"> this article is&nbsp;{{-  $publishAgeYears -}}&nbsp;years old</span>
+              {{- end -}}
+            {{- end -}}
            {{- end -}}
           {{ .Content }}
           {{ $defaultReplyByEmail := site.Params.replyByEmail }}
