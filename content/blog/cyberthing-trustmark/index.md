@@ -30,6 +30,8 @@ The inspiration was from two places. First, I'm a fan of [eigenmagic's](https://
 
 What if, during the design phase of these schemes, we could simulate what consumers might actually see? We could set the bar high, so to speak. A Trustmark would also be something you could imagine seeing on a shelf next to a smart bulb, connected thermostat or smart switch, or somewhere on a page online.
 
+It may also come with a side bonus of actual use, if you wanted to print it out as a label with device info like IP address, login pages etc.
+
 ### Examples of Other Consumer Marks
 
 There are great examples of Trustmarks from overseas like the [BSI IT Security Label in Germany](https://www.bsi.bund.de/SharedDocs/IT-Sicherheitskennzeichen/EN/2025/sik-05165.html#_5copl695n).
@@ -53,6 +55,24 @@ Visually, they all serve a purpose to communicate a piece of information. As a s
 
 
 ## Building the fake CyberThing Trustmark
+
+### Use of LLMs in this project
+
+
+I want to make it clear how I used LLMs and why. As a part-time student and having a part-time job, I don't have enough time to look into projects or ideas I have. As such, being a first-time user of LLMs, I was able to get a one month trial of the Google AI Pro plan.  Monash University does give students access to Gemini which includes the latest models, however it is limited to the web only, meaning I couldn't test in Google's Antigravity app.
+Surprisingly, the university has been very encouraging for students to use AI to assist in the brainstorming phase of projects and to help draft out any work.
+
+All of the development was done in a virtual machine, and I've made the choice to publish all the code on a separate GitHub account - one that i've used previously for any automated git commits - [AdamXbot](https://github.com/adamXbot/), and one that I will continue to do if any projects are created mostly with LLMs. I may change my view on this in the future as more AI gets baked into apps. I used the stock experience, with to MCP or skills, however it did prompt me to install Chrome, and it controlled the browser to 'validate' itself and take screenshots.
+
+That being said, I also wanted to see the capabilities of an AI for something that would have taken me about a week in my spare time to create, which shortened a functional mockup down to a day.
+
+I had an idea of what I wanted to create and its functionality, and the AI was carefully prompted over multiple revisions to develop a webpage to simulate how a trustmark could function. I did also request that for a security page it test against OWASP top 10, and XSS particularly as people would potentially be using it to create URLs to share with others. I used the Gemini 3 Flash model on my own account, and whilst its difficult to transparently track token usage, it did use 80% of a single daily quota, with about 5 active hours.
+
+As this was made with AI, I'd encourage you to inspect the entirety of the soucecode on [Github](https://github.com/adamXbot/CyberThing-Trustmark), albeit only a CSS, Javascript and HTML file. 
+
+One interesting side note is that for fonts, it must be trained to prioritise importing a Google font from their library. Then again this is the only project i've used AI for, so next timee may be different?
+
+### Mockup to simulate consumer decision
 
 For this weekend project, I tried to create something that someone could theoretically fill out and stick on their IoT device. It's a mockup designed to include the information I, as a consumer, would find most helpful when purchasing a product. As such, the page has:
 
