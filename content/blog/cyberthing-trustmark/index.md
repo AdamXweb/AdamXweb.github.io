@@ -21,16 +21,40 @@ math: false
 toc: false
 ---
 
-Sometimes the best learning happens on a Saturday afternoon when you're just tinkering for fun. With rainy Melbourne weather outside, I booted up an AI and had a go at a creative experiment: designing a mockup ["CyberThing Trustmark"](https://cyberthing.awesome-aussie.com) for consumer electronics. 
+I spent a rainy Melbourne weekend building a functional mockup of a [proposed](https://www.connectedtechnologyalliance.com.au/labellingscheme) cybersecurity label for consumer electronics. Think of it like an energy star rating, but for device privacy and security.
 
-As a privacy and security advocate, i'm all for supporting organisations being transparent about how their device works, and what kind of data is collected and how it is used.
+As a consumer, it's almost impossible to know what a device is going to do when you bring it home. Do you need a proprietary app? Does it send data overseas? Does it connect to the internet?
+It's also fairly common to see abandonware on shelves, where products rarely receive any security updates. If mandatory labelling was on all devices, you'd know if there were any Common  Vulnerabilities and Exposures (CVEs), or if the brand has a reputation for poor security practises.
 
-## Where the Idea Came From
-The inspiration was from two places. First, I'm a fan of [eigenmagic's](https://cybersecure.eigenmagic.com/) **CyberSecure™ rating.** I was also reading about the Australian Government's Department of Home Affairs cybersecurity labelling scheme proposal, which aims to help consumers assess and compare the security of smart devices on Australian shelves and online.
+Here is a preview of what you'd see when scanning a QR code. BTW the ["CyberThing Trustmark" is a real website btw](https://cyberthing.awesome-aussie.com) 
+![Trustmark preview](./img/qrscanverification.gif)
 
-What if, during the design phase of these schemes, we could simulate what consumers might actually see? We could set the bar high, so to speak. A Trustmark would also be something you could imagine seeing on a shelf next to a smart bulb, connected thermostat or smart switch, or somewhere on a page online.
+If you're buying it off a shelf, you can pick up the product, seeing the security stars on front and back with compliance info.
+{{< gallery >}}
+  <img src="./img/meross1.png" class="grid-w33" alt="Game classification Gov website" />
+  <img src="./img/meross2.png" class="grid-w33" alt="Energy rating page"/>
+{{< /gallery >}}
+Or on Amazon (albeit there'd be a link not a QR code)
+![Amazon example](./img/merossamazon.png)
 
-It may also come with a side bonus of actual use, if you wanted to print it out as a label with device info like IP address, login pages etc.
+### DIY Label
+
+As part of the design process, I took inspiration from [eigenmagic's](https://cybersecure.eigenmagic.com/) **CyberSecure™ rating** as well as the Australian Government's Department of Home Affairs cybersecurity labelling scheme [proposal](https://www.connectedtechnologyalliance.com.au/labellingscheme), which we could see on shelves and online in March 2027.
+
+The site is an interactive label maker, designed in a way where you could print it off and stick it on your IoT to keep track of its IP address, login URLs etc. The QR codes are dynamic, with parameters in the URL auto filling the label - meaning you can share the URL, download the png or do whatever really. The source code is on [Github](https://github.com/adamXbot/CyberThing-Trustmark), pull requests accepted :)
+
+There's a bit you can configure for your label - even the QR code updates on the fly!
+{{< video
+    src="preview.mp4"
+    poster="feature.png"
+    loop=true
+    muted=true
+>}}
+
+### How it was made
+
+Now it's time to mention AI. As a part-time student and having a part-time job, I don't always have time to work on ideas and execute them. Using Gemini 3 Flash allowed me to turn this into a Saturday arvo thing and not take up my spare time over a week. I'm a first-time user of LLMs, and I've made the choice to publish all the code on a separate GitHub account - one that i've used previously for any automated git commits - [AdamXbot](https://github.com/adamXbot/). I completed everything in a VM running Google's Antigravity IDE, which controlled Chrome as it implemented my prompts. There were multiple iterations, with about 5 hours of active usage, draining 80% of the available quota of a Google AI Pro trial. I did also request that it test against OWASP top 10, and XSS particularly as people would potentially be using it to create URLs to share with others. Again, the source code is on [Github](https://github.com/adamXbot/CyberThing-Trustmark) to inspect if you prefer, before visiting the mockup ["CyberThing Trustmark"](https://cyberthing.awesome-aussie.com) site.
+
 
 ### Examples of Other Consumer Marks
 
@@ -52,80 +76,24 @@ Visually, they all serve a purpose to communicate a piece of information. As a s
 
 ![Energy database](./img/energydatabase.png)
 
+## Stats of how much this is used
+I've made the live website stats public on my [Simple Analytics dashboard](https://dashboard.simpleanalytics.com/cyberthing.awesome-aussie.com).
+If you've refreshed the page enough, you'll also see the RegID number increase. It's using counterapi.dev so technically like the old day website counters. Something to note is that it doesn't save any info, and that you control it all via URL Params. You can also clone the Repo and strip out the analytics, counterapi calls if you want a private version to tinker with.
 
+## Links / Credits
 
-## Building the fake CyberThing Trustmark
+As i've added screnshots above, you can find the full pages at:
+- [Game Classification Government website](https://www.classification.gov.au/titles/age-empires-ii-definitive-edition)
+- [Energy Rating Database](https://reg.energyrating.gov.au/comparator/product_types/73/search/comprehensive/?wrapper_search=&expired_products=on&brand_names=apple&model_number=)
+- [Energy Calculator example of a dryer](https://calculator.energyrating.gov.au/DryerDetails.aspx)
+- [Children and Media movie reviews example](https://childrenandmedia.org.au/movie-reviews/by-date-added/newest)
 
-### Use of LLMs in this project
-
-
-I want to make it clear how I used LLMs and why. As a part-time student and having a part-time job, I don't have enough time to look into projects or ideas I have. As such, being a first-time user of LLMs, I was able to get a one month trial of the Google AI Pro plan.  Monash University does give students access to Gemini which includes the latest models, however it is limited to the web only, meaning I couldn't test in Google's Antigravity app.
-Surprisingly, the university has been very encouraging for students to use AI to assist in the brainstorming phase of projects and to help draft out any work.
-
-All of the development was done in a virtual machine, and I've made the choice to publish all the code on a separate GitHub account - one that i've used previously for any automated git commits - [AdamXbot](https://github.com/adamXbot/), and one that I will continue to do if any projects are created mostly with LLMs. I may change my view on this in the future as more AI gets baked into apps. I used the stock experience, with to MCP or skills, however it did prompt me to install Chrome, and it controlled the browser to 'validate' itself and take screenshots.
-
-That being said, I also wanted to see the capabilities of an AI for something that would have taken me about a week in my spare time to create, which shortened a functional mockup down to a day.
-
-I had an idea of what I wanted to create and its functionality, and the AI was carefully prompted over multiple revisions to develop a webpage to simulate how a trustmark could function. I did also request that for a security page it test against OWASP top 10, and XSS particularly as people would potentially be using it to create URLs to share with others. I used the Gemini 3 Flash model on my own account, and whilst its difficult to transparently track token usage, it did use 80% of a single daily quota, with about 5 active hours.
-
-As this was made with AI, I'd encourage you to inspect the entirety of the soucecode on [Github](https://github.com/adamXbot/CyberThing-Trustmark), albeit only a CSS, Javascript and HTML file. 
-
-One interesting side note is that for fonts, it must be trained to prioritise importing a Google font from their library. Then again this is the only project i've used AI for, so next timee may be different?
-
-### Mockup to simulate consumer decision
-
-For this weekend project, I tried to create something that someone could theoretically fill out and stick on their IoT device. It's a mockup designed to include the information I, as a consumer, would find most helpful when purchasing a product. As such, the page has:
-
-- Clear star ratings that would communicate security posture at a glance, with plain-language explanations of what those stars actually mean.
-- When scanning the QR code, ideally more information about the product and brand are shown
-- Consumer Context: Details on what the security rating means for the user, including whether the device locks them into a specific ecosystem or remains open for tools like Home Assistant (essentially: Do I need a proprietary app to use this?).
-
-A mockup like this leaves out many complexities a real scheme would require, but I wanted to focus purely on the consumer point of view. Many people may not care that a Ring doorbell sends data to Amazon, but a significant percentage of consumers might think otherwise if that information were clearly visible.
-
-I didn't want to go too deep into building a "real system," but I believe this strikes a good balance of features that a future real-world system could adopt.
-
-I utilised Google Gemini 3 Flash to create the page.
-
-Check it out [below](#check-it-out)
-![Trustmark Gif](./img/desktop_modal.png)
-
-
-
-## What it's based on - The Gov draft design
-
-The sample label can be found in the [IoT presentation](https://www.connectedtechnologyalliance.com.au/labellingscheme) which outlines a plan to create a trustmark similar to the energy star rating, with a rollout targeted for March 2027.
-
-![Label example](./img/labelexample.png)
-
-The Australian Government's initiative is a step in the right direction, but until these labels become standard and verifiable, consumers still aren't aware. My mockup is just a weekend experiment, but it highlights what transparency could look like in practice.
-
-
-## Mock example
-I thought it would be cool to also do a quick mockup in Affinity Photo to put the CyberThing Trustmark on a real product I purchased.
-
-If I saw it on the shelf, i'd preview the QR code, and if it had a `.gov.au` URL at the end, it'd be neat to see the individual product info.
-
-{{< gallery >}}
-  <img src="./img/meross1.png" class="grid-w33" alt="Game classification Gov website" />
-  <img src="./img/meross2.png" class="grid-w33" alt="Energy rating page"/>
-{{< /gallery >}}
-
-
-it's a bit harder to mock up e-commerce sites, as most likely it would either be a product image, or just linked directly to the Trustmark scheme to verify it's still active.
-![Amazon example](./img/merossamazon.png)
-
-
-## Links
-
-[I've made the live website analytics public on a dashboard](https://dashboard.simpleanalytics.com/cyberthing.awesome-aussie.com)
-
-[Game Classification Government website](https://www.classification.gov.au/titles/age-empires-ii-definitive-edition)\
-[Energy Rating Database](https://reg.energyrating.gov.au/comparator/product_types/73/search/comprehensive/?wrapper_search=&expired_products=on&brand_names=apple&model_number=)\
-[Energy Calculator example of a dryer](https://calculator.energyrating.gov.au/DryerDetails.aspx)\
-[Children and Media movie reviews example](https://childrenandmedia.org.au/movie-reviews/by-date-added/newest)
-
+EDIT:
+Also a huge shoutout to [@decryption](https://decryption.net.au) for giving me some helpful advice for me to rewrite this - original version was very clunky to read.
 
 ## Check it out!
 See the security label for yourself, and please feel free to leave a comment - i'm open to feedback or questions!
 
 [CyberThink Trustmark Website](https://cyberthing.awesome-aussie.com)
+
+## Credits
