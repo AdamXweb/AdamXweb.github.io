@@ -44,7 +44,7 @@ It lives in your menu bar, where you can toggle a 'blitz' or see the status.
 > As always, before installing stuff, i'd recommend testing in a virtual machine or sandboxed instance. `BananaBlitz` is in beta, and may have bugs or act in an unverified way.
 
 
-![onboarding](./onboarding.gif)
+![onboarding](./onboard.gif)
 
 
 Check it out on [Github](https://github.com/adamXbot/BananaBlitz) - i'm open to pull requests and feedback!
