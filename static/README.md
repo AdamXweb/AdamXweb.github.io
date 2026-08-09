@@ -38,7 +38,13 @@ hugo --minify   # build the production site into ./public
 ```
 
 There is also a [`justfile`](https://github.com/AdamXweb/AdamXweb.github.io/blob/dev/justfile) with
-the same commands as [just](https://just.systems) recipes: `just run`, `just build`, `just clean`.
+the same commands as [just](https://just.systems) recipes: `just run`, `just build`, `just clean`,
+plus `just default` and `just setup`.
+
+Ignore `just setup`. It runs `git submodule update --init --recursive`, from when the theme was a
+submodule — there is no `.gitmodules` any more and `themes/blowfish` is committed in the tree, so the
+recipe does nothing. The `submodules: true` in the workflow's checkout step is stale for the same
+reason.
 
 ## How it deploys
 
